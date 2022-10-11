@@ -1,38 +1,21 @@
 class Solution {
     public int maximumPopulation(int[][] logs) {
-        Map<Integer, Integer> map = new HashMap();
-        
+        int[] arr = new int[101];
         for(int[] interval: logs) {
             int start = interval[0];
             int end = interval[1];
             
-            for(int i=start; i<end; i++) {
-                int freq = map.getOrDefault(i, 0);
-                map.put(i, freq+1);
-            }
-            // map.put(end, map.getOrDefault(end, 0)-1);
+            arr[start-1950]++;
+            arr[end-1950]--;
         }
-        
-        // for(int key: map.keySet()) {
-        //     System.out.println(key +" : " +map.get(key));
-        // }
-        
-        int maxFreq = -1; //2
-        int minYear = 2051; //1950
-        for(int key: map.keySet()) {
-            int f = map.get(key);
-            if(f > maxFreq) {
-                if(key > minYear && f > maxFreq) {
-                    maxFreq = f;
-                    minYear = key;
-                } else {
-                    maxFreq = f;
-                    minYear = key;
-                }
-            } else if(f == maxFreq) {
-                if(key<minYear) {
-                    minYear = key;
-                }
+        // System.out.println(Arrays.toString(arr));
+        int minYear = 1950;
+        int maxF = arr[0];
+        for(int i=1; i<arr.length; i++) {
+            arr[i] = arr[i] + arr[i-1];
+            if(arr[i] > maxF) {
+                maxF = arr[i];
+                minYear = i+1950;
             }
         }
         return minYear;
