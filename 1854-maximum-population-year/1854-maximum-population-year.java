@@ -1,23 +1,24 @@
 class Solution {
     public int maximumPopulation(int[][] logs) {
-        int[] arr = new int[101];
-        for(int[] interval: logs) {
-            int start = interval[0];
-            int end = interval[1];
+        int[] population = new int[101];
+        
+        
+        for(int[] range: logs) {
+            int start = range[0];
+            int end = range[1];
             
-            arr[start-1950]++;
-            arr[end-1950]--;
+            population[start-1950]++;
+            population[end-1950]--;
         }
-        // System.out.println(Arrays.toString(arr));
-        int minYear = 1950;
-        int maxF = arr[0];
-        for(int i=1; i<arr.length; i++) {
-            arr[i] = arr[i] + arr[i-1];
-            if(arr[i] > maxF) {
-                maxF = arr[i];
-                minYear = i+1950;
+        int maxP = population[0];
+        int year = 1950;
+        for(int i=1; i<population.length; i++) {
+            population[i] += population[i-1];
+            if(population[i] > maxP) {
+                maxP = population[i]; 
+                year = i+1950;
             }
         }
-        return minYear;
+        return year;
     }
 }
