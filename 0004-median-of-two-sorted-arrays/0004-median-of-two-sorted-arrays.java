@@ -3,8 +3,8 @@ class Solution {
         int[] A = nums1.length <= nums2.length ? nums1 : nums2;
         int[] B = nums1.length > nums2.length ? nums1 : nums2;
         
-        System.out.println(Arrays.toString(A));
-        System.out.println(Arrays.toString(B));
+        // System.out.println(Arrays.toString(A));
+        // System.out.println(Arrays.toString(B));
         
         int len = nums1.length + nums2.length;
         int half = len/2;
