@@ -9,12 +9,12 @@ class Solution {
         ops.add(a*b);
         ops.add(a-b);
         ops.add(b-a);
-        if(a > 0.00000001) {
+        // if(a > 0.00000001) {
             ops.add(b/a);
-        }
-        if(b > 0.00000001) {
+        // }
+        // if(b > 0.00000001) {
             ops.add(a/b);
-        }
+        // }
         return ops;
     }
     private boolean backtrack(List<Double> arr) {
