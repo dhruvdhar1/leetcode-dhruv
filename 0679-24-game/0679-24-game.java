@@ -12,7 +12,6 @@ class Solution {
         }
         
         if(b-a >= 0) {
-        
             ops.add(b-a);
         }
         if(a > 0.00000001) {
