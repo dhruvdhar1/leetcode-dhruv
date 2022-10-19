@@ -12,10 +12,9 @@ class Solution {
         }
         
         if(b-a >= 0) {
-            ops.add(a-b);
-        }
         
-        ops.add(b-a);
+            ops.add(b-a);
+        }
         if(a > 0.00000001) {
             ops.add(b/a);
         }
