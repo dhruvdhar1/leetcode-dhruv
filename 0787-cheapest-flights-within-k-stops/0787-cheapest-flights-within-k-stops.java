@@ -4,9 +4,6 @@ class Solution {
         if(k >= 0 && curr == dest) return cost;
         if(k == 0 && curr != dest) return -1;
         
-        // String key = new StringBuilder().append(curr).append(":").append(dest).append(":").append(k).toString();
-        // if(dp.containsKey(key)) return dp.get(key);
-        
         if(dp[curr][dest][k] != 0) return dp[curr][dest][k];
         
         int minCost = Integer.MAX_VALUE;
@@ -20,13 +17,11 @@ class Solution {
             minCost = Math.min(minCost, res+c);
         }
         int finalRes = (minCost == Integer.MAX_VALUE) ? -1 : minCost;
-        // dp.put(key, finalRes);
         dp[curr][dest][k] = finalRes;
         return finalRes;
     }
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         Map<Integer, List<int[]>> adjList = new HashMap();
-        // Map<String, Integer> dp = new HashMap();
         int[][][] dp = new int[n+1][n+1][k+2];
         for(int[] route: flights) {
             int s = route[0];
