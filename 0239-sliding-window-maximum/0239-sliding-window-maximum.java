@@ -25,7 +25,6 @@ class Solution {
             }
             if(maxHeap.size() > 0) {
                 max.add(maxHeap.peek().el);
-                // res[i++] = maxHeap.peek().el;
             }
             start++;
             end++;
@@ -34,7 +33,6 @@ class Solution {
         for(int m: max) {
             res[i++] = m;
         }
-        // System.out.println("res: " + max);
         return res;
     }
 }
