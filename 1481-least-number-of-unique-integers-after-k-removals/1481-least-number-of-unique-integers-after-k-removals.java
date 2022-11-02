@@ -18,18 +18,14 @@ class Solution {
             int f = map.getOrDefault(num, 0);
             map.put(num, f+1);
         }
-        // System.out.println(map.toString());
         PriorityQueue<Pair> minHeap = new PriorityQueue<>((p1, p2) -> p1.freq-p2.freq);
         
         for(int key: map.keySet()) {
             Pair p = new Pair(key, map.get(key));
-            // System.out.println(p.toString());
             minHeap.add(p);
         }
-        // System.out.println(minHeap.toString());
         while(k > 0) {
             Pair poll = minHeap.poll();
-            // int delta = Math.abs(poll.freq-k);
             if(poll.freq >= k) {
                 poll.freq -= k;
                 k = 0;
@@ -41,7 +37,6 @@ class Solution {
                 minHeap.add(poll);
             }
         }
-        // System.out.println(minHeap.toString());
         return minHeap.size();
     }
 }
