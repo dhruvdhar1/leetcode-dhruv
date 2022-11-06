@@ -32,10 +32,8 @@ class Solution {
                 minHeap.add(p);
             }
         }
-        // System.out.println(minHeap.toString());
         while(!minHeap.isEmpty()) {
             Pair pop = minHeap.poll();
-            // System.out.println("------- " + pop.toString());
             res.next = new ListNode(pop.element);
             res = res.next;
             lists[pop.listInd] = lists[pop.listInd].next;
