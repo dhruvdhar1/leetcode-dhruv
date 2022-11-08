@@ -1,22 +1,19 @@
 class Solution {
     public String makeGood(String s) {
         System.out.println('z'-'Z');
-        Stack<Character> stk = new Stack();
         int len = s.length();
+        
+        StringBuilder sb = new StringBuilder();
         for(int i=0; i<len; i++) {
-            char peek = stk.size() > 0 ? stk.peek() : ' ';
+            char peek = sb.length() > 0 ? sb.charAt(sb.length()-1) : ' ';
             char ch = s.charAt(i);
             int diff = Math.abs((int)(ch - peek));
             if(diff == 32) {
-                stk.pop();
+                sb.deleteCharAt(sb.length()-1);
             } else {
-                stk.add(ch);
+                sb.append(ch);
             }
         }
-        StringBuilder sb = new StringBuilder();
-        while(!stk.isEmpty()) {
-            sb.append(stk.pop());
-        }
-        return sb.reverse().toString();
+        return sb.toString();
     }
 }
