@@ -3,9 +3,10 @@ class Solution {
         boolean[] primes = new boolean[n];
         int count = 0;
         for(int i=2; i*i < n; i++) {
-            for(int j=i; j*i<n; j++) {
-                // System.out.println(j*i);
-                primes[j*i] = true;
+            if(!primes[i]) {
+                for(int j=i; j*i<n; j++) {
+                    primes[j*i] = true;
+                }
             }
         }
         
