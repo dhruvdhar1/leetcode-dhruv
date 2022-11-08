@@ -2,7 +2,7 @@ class Solution {
     public int countPrimes(int n) {
         boolean[] primes = new boolean[n];
         int count = 0;
-        for(int i=2; i < Math.sqrt(n); i++) {
+        for(int i=2; i*i < n; i++) {
             for(int j=i; j*i<n; j++) {
                 // System.out.println(j*i);
                 primes[j*i] = true;
