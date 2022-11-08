@@ -1,6 +1,5 @@
 class Solution {
     public String makeGood(String s) {
-        System.out.println('z'-'Z');
         int len = s.length();
         
         StringBuilder sb = new StringBuilder();
