@@ -13,7 +13,6 @@ class Solution {
                 stk.add(ch);
             }
         }
-        // System.out.println(stk.toString());
         StringBuilder sb = new StringBuilder();
         while(!stk.isEmpty()) {
             sb.append(stk.pop());
