@@ -1,27 +1,34 @@
 class Solution {
-    private int backtrack(int[] coins, int amount, int numCoins, int[] dp) {
-        if(amount == 0) {
-            return 0;
-        }
-        if(dp[amount] != 0) {
-            return dp[amount];
-        }
+    private int backtrack(int[] coins, int amount, int curr, int numCoins, int[] dp) {
+        // System.out.println("AAAAAA: " + curr);
+        if(curr > amount) return -1;
+        if(curr == amount) return 0;
         
-        int minCoins = Integer.MAX_VALUE;
-        for(int i=coins.length-1; i>=0; i--) {
+        if(dp[curr] != 0) return dp[curr];
+        
+        int num = 1000001;
+        for(int i=coins.length-1; i>=0; i--) { //1,2,5
+            int c;
             if(coins[i] <= amount) {
-                int res = backtrack(coins, amount-coins[i], numCoins+1, dp);
-                if(res < minCoins && res != -1) {
-                    minCoins = 1+res;
+                c = backtrack(coins, amount, curr+coins[i], numCoins+1, dp);
+                if(c != -1) {
+                    num = Math.min(num, c+1);
                 }
             }
-        }
-        dp[amount] = (minCoins == Integer.MAX_VALUE) ? -1 : minCoins;
-        return dp[amount];
+        }        
+        int res = (num == 1000001) ? -1 : num;
+        dp[curr] = res;
+        return res;
     }
     public int coinChange(int[] coins, int amount) {
-        int[] dp = new int[amount+1];
         Arrays.sort(coins);
-        return backtrack(coins, amount, 0, dp);
+        // System.out.println("sorted: " + Arrays.toString(coins));
+        int[] dp = new int[amount+1];
+        return backtrack(coins, amount, 0, 0, dp);
     }
 }
+
+/*
+curr = 0 + 1+1+1...
+coins = 0+1
+*/
