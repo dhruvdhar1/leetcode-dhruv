@@ -5,11 +5,9 @@ class Solution {
         if(ind >= len) {
             if(open == close) {
                 if(curr.length() == minLength) {
-                    // System.out.println("Add: " + curr);
                     list.add(curr);
                 }
             }
-            // System.out.println("skip: " + curr);
             return;
         }
         if(s.charAt(ind) == '(') {
@@ -45,7 +43,6 @@ class Solution {
                 }
             }
         }
-        // System.out.println("min remove: " + stk.size());
         minToRemove = stk.size();
         Set<String> res = new HashSet();
         backtrack(len, 0, 0, len-minToRemove, "", s, 0, res);
