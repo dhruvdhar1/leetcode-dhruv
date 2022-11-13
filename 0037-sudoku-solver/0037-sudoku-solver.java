@@ -1,50 +1,46 @@
 class Solution {
     
-    private boolean isValid(int x, int y, int pos, int[][] board) {
+    private boolean isValid(char[][] board, int x, int y, int num) {
         for(int i=0; i<9; i++) {
-            if(board[i][y] == pos) return false;
+            if(board[x][i] == (char)(num + '0')) return false;
         }
-        for(int j=0; j<9; j++) {
-            if(board[x][j] == pos) return false;
+        
+        for(int i=0; i<9; i++) {
+            if(board[i][y] == (char)(char)(num + '0')) return false;
         }
-        int xOffset = 3*(x/3);
-        int yOffset = 3*(y/3);
+        
+        int xOffset = (x/3) * 3;
+        int yOffset = (y/3) * 3;
         
         for(int i=xOffset; i<xOffset+3; i++) {
             for(int j=yOffset; j<yOffset+3; j++) {
-                if(board[i][j] == pos) return false;
+                if(board[i][j] == (char)(char)(num + '0')) return false;
             }
         }
-        // System.out.println("+++++++ : " + x + " : " + y + " : " + pos);
+        
         return true;
     }
     
-    private boolean backtrack(int[][] board, int x, int y) {
-        if(x == board.length) {
+    private boolean backtrack(char[][] board, int x, int y) {
+        int m=-1, n=-1;
+        if(y == 8) {
+            m = x+1;
+            n = 0;
+        } else {
+            m = x;
+            n = y+1;
+        }
+        if(x == 9) {
             return true;
         }
-        int ni = 0;
-        int nj = 0;
-        
-        if(y == board[0].length-1) {
-            ni = x+1;
-            nj = 0;
+        if(board[x][y] != '.') {
+            return backtrack(board, m, n);
         } else {
-            ni = x;
-            nj = y+1;
-        }
-        
-        // System.out.println(x + " : " + y);
-        
-        if(board[x][y] != 0) {
-            return backtrack(board, ni, nj);
-        } else {
-            for(int i=1; i<=9; i++) {
-                if(isValid(x, y, i, board)) {
-                    // System.out.println("-----" + x + " : " + y + " : " + i);
-                    board[x][y] = i;
-                    if(backtrack(board, ni, nj)) return true;
-                    board[x][y] = 0;
+            for(int k=1; k<=9; k++) {
+                if(isValid(board, x, y, k)) {
+                    board[x][y] = (char)(k +'0');
+                    if(backtrack(board, m, n)) return true;
+                    board[x][y] = '.';
                 }
             }
         }
@@ -52,28 +48,6 @@ class Solution {
     }
     
     public void solveSudoku(char[][] board) {
-        int[][] grid = new int[9][9];
-        
-        for(int i=0; i<9; i++) {
-            for(int j=0; j<9; j++) {
-                String ch = "" + board[i][j];
-                if(ch.equals(".")) {
-                    grid[i][j] = 0;
-                } else {
-                    grid[i][j] = Integer.parseInt(ch);
-                }
-            }
-        }
-        backtrack(grid, 0, 0);
-        // for(int i=0; i<9; i++) {
-        //     System.out.println(Arrays.toString(grid[i]));
-        // };
-        for(int i=0; i<9; i++) {
-            for(int j=0; j<9; j++) {
-                char ch = (char)(grid[i][j] + '0');
-                // System.out.println("/////// " + ch);
-                board[i][j] = ch;
-            }
-        }
+        backtrack(board, 0, 0);
     }
 }
