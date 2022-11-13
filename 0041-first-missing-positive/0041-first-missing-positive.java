@@ -15,7 +15,7 @@ class Solution {
                 nums[ind] *= -1;
             }
         }
-        System.out.println("------ " + Arrays.toString(nums));
+        // System.out.println("------ " + Arrays.toString(nums));
         for(int i=0; i<len; i++) {
             if(nums[i] >= 0) return i+1;
         }
