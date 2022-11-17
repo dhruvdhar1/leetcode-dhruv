@@ -1,19 +1,23 @@
 class Solution {
-    public boolean isMatch(String text, String pattern) {
-        return isMatch(text, 0, pattern, 0);
-    }
-    
-    private boolean isMatch(String text, int i, String pattern, int j) {
-        if (j == pattern.length()) {
-            return i == text.length();
-        }
+    private boolean backtrack(String s, String p, int sInd, int pInd) {
+        // System.out.println("sInd : "+ sInd + " - pInd: " + pInd);
+        if(pInd == p.length()) return sInd == s.length();
         
-        boolean charsMatch = (i != text.length()) && (text.charAt(i) == pattern.charAt(j) || pattern.charAt(j) == '.');
         
-        if (j + 2 <= pattern.length() && pattern.charAt(j + 1) == '*') {
-            return (charsMatch && isMatch(text, i + 1, pattern, j)) || isMatch(text, i, pattern, j + 2);
+        if(pInd+1 < p.length() && p.charAt(pInd+1) == '*') {
+            return sInd < s.length() && (p.charAt(pInd) == s.charAt(sInd) || p.charAt(pInd)  == '.') && 
+                        backtrack(s, p, sInd+1, pInd) || backtrack(s, p, sInd, pInd+2);
+        } else if (sInd < s.length() && p.charAt(pInd) == '.') {
+            return backtrack(s, p, sInd+1, pInd+1);
         } else {
-            return charsMatch && isMatch(text, i + 1, pattern, j + 1);
+            if(sInd < s.length() && p.charAt(pInd) == s.charAt(sInd)) {
+                return backtrack(s, p, sInd+1, pInd+1);
+            } else {
+                return false;
+            }
         }
+    }
+    public boolean isMatch(String s, String p) {
+        return backtrack(s, p, 0, 0);
     }
 }
