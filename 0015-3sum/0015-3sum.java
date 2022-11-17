@@ -14,7 +14,7 @@ class Solution {
                     triplet.add(nums[i]);
                     triplet.add(nums[l]);
                     triplet.add(nums[r]);
-                    Collections.sort(triplet);
+                    // Collections.sort(triplet);
                     String tStr = triplet.toString();
                     if(!set.contains(tStr)) {
                         res.add(triplet);
