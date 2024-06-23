@@ -9,7 +9,7 @@ var isPalindrome = function(s) {
         const lch = s[l]
         const rch = s[r]
 
-        console.log("Lch: ", lch, "rch: ", rch)
+
         if(!((lch >= 'a' && lch <= 'z') || (lch >= 'A' && lch <= 'Z') || (lch >= '0' && lch <= '9'))) {
 
             l++
