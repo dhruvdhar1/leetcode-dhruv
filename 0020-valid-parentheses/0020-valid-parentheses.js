@@ -7,7 +7,6 @@ var isValid = function(s) {
 
     for(let i=0; i<s.length; i++) {
         const ch = s[i]
-        console.log("ch: ", ch)
         if(ch === ')' || ch === '}' || ch ===']') {
             const pop = stack.pop()
             if(ch === ')' && pop !== '(') {
