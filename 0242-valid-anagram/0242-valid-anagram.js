@@ -26,6 +26,5 @@ var isAnagram = function(s, t) {
             return false
         }
     }
-    console.log(mapS.length)
     return true
 };
