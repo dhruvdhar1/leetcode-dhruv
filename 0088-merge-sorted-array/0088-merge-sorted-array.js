@@ -11,11 +11,10 @@ var merge = function(nums1, m, nums2, n) {
     let q = n-1
     while(p >= 0 && q >= 0) {
         if(nums1[p] >= nums2[q]) {
-            nums1[i] = nums1[p--]
+            nums1[i--] = nums1[p--]
         } else {
-            nums1[i] = nums2[q--]
+            nums1[i--] = nums2[q--]
         }
-        i--
     }
 
     while(q >= 0) {
