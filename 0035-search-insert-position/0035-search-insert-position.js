@@ -4,18 +4,13 @@
  * @return {number}
  */
 var searchInsert = function(nums, target) {
-    let l=0, r=nums.length-1
+    let l = 0, r = nums.length-1
 
-    while(l<r) {
-        const mid = l + Number.parseInt((r-l)/2)
-        if(nums[mid] === target) return mid
-        else if(nums[mid] > target) {
-            r = mid
-        } else {
-            l = mid+1
-        }
+    while(l < r) {
+        const m = l + Number.parseInt((r-l)/2)
+        if(nums[m] === target) return m
+        else if(nums[m] > target) r = m
+        else l = m+1
     }
-    if(nums[l] < target) return l+1
-    else return l
-
+    return nums[l] < target ? l+1 : l
 };
