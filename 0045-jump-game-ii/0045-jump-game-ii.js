@@ -8,7 +8,7 @@ var jump = function(nums) {
 
     while(r < nums.length-1) {
         let farthest = 0
-        for(let i=0; i<r+1; i++) {
+        for(let i=l; i<r+1; i++) {
             farthest = Math.max(farthest, i+nums[i])
         }
         l = r+1
