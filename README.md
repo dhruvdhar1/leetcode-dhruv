@@ -9,4 +9,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
+## String
+|  |
+| ------- |
+| [0006-zigzag-conversion](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0006-zigzag-conversion) |
 <!---LeetCode Topics End-->
