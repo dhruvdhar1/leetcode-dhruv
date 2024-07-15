@@ -3,15 +3,12 @@
  * @return {number}
  */
 var minAddToMakeValid = function(s) {
-    const stack = []
+    let open = 0, close = 0
     for(let i=0; i<s.length; i++) {
         const ch = s[i]
-        // console.log("---- ", stack)
-        if(ch === ')' && stack[stack.length-1] === '(') {
-            stack.pop()
-        } else {
-            stack.push(ch)
-        }
+        if(ch === '(') open++
+        else if(!open) close++
+        else open--
     }
-    return stack.length
+    return open+close
 };
