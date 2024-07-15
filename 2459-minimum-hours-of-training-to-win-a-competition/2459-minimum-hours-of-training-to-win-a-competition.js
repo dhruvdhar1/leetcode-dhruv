@@ -6,29 +6,19 @@
  * @return {number}
  */
 var minNumberOfHours = function(initialEnergy, initialExperience, energy, experience) {
-    let addedEnergy = 0
+    let count = 0
     for(let i=0; i<energy.length; i++) {
-        if(initialEnergy > energy[i]) {
-            initialEnergy -= energy[i]
-        } else {
-            const delta = energy[i]+1-initialEnergy
-            addedEnergy += delta
-            initialEnergy += delta
-            initialEnergy -= energy[i]
+        if(initialExperience <= experience[i]) {
+            count += experience[i]-initialExperience+1;
+            initialExperience += experience[i]-initialExperience+1;
         }
-    }
-    // console.log("energy: ", addedEnergy)
+        initialEnergy -= energy[i]
+        initialExperience += experience[i]
 
-    let addedExp = 0
-    for(let i=0; i<experience.length; i++) {
-        if(initialExperience > experience[i]) {
-            initialExperience += experience[i]
-        } else {
-            const delta = experience[i]+1-initialExperience
-            addedExp += delta
-            initialExperience += (delta + experience[i])
-        }
+
     }
-    // console.log("exp: ", addedExp)
-    return addedEnergy + addedExp
+            if(initialEnergy < 1) {
+            count += 1-initialEnergy
+        }
+    return count
 };
