@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
+| [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 | [2459-minimum-hours-of-training-to-win-a-competition](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2459-minimum-hours-of-training-to-win-a-competition) |
 ## String
 |  |
@@ -44,4 +45,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+## Tree
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
