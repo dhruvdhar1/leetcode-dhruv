@@ -3,16 +3,20 @@
  * @return {boolean}
  */
 var validPalindrome = function(s) {
+    const dp = new Map()
     const backtrack = (s, p, q, deleted) => {
-        // console.log(p, " : ", q, " : deleted: ", deleted)
         if(q <= p) return true
+        const key = `${p}:${q}`
+        if(dp.has(key)) return dp.get(key)
+        let res = false
         if(s[p] === s[q]) {
-            // console.log("ch: ", s[p], " : ", p+1, " : ", q-1)
-            return backtrack(s, p+1, q-1, deleted)
+            res = backtrack(s, p+1, q-1, deleted)
         } else {
             if(deleted) return false
-            return backtrack(s, p+1, q, true) || backtrack(s, p, q-1, true)
+            res = backtrack(s, p+1, q, true) || backtrack(s, p, q-1, true)
         }
+        dp.set(key, res)
+        return res
     }
     return backtrack(s, 0, s.length-1, false)
 };
