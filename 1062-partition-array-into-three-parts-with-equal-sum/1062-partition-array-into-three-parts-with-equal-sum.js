@@ -20,6 +20,5 @@ var canThreePartsEqualSum = function(arr) {
             count++
         }
     }
-    console.log("----count: ", count)
     return count >= 3
 };
