@@ -24,7 +24,6 @@ var minimumSeconds = function(nums) {
             }
             max = Math.max(max, time)
         }
-        console.log("key: ", key, " : ", max)
         res = Math.min(res, max)
     }
     return res
