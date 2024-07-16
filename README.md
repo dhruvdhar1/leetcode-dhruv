@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0135-candy) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0605-can-place-flowers) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0135-candy) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0605-can-place-flowers) |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
