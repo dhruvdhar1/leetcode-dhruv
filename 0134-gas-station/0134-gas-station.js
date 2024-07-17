@@ -8,29 +8,24 @@ var canCompleteCircuit = function(gas, cost) {
         acc += curr
         return acc
     }, 0)
-
     const costSum = cost.reduce((acc, curr) => {
         acc += curr
         return acc
     }, 0)
-
     if(costSum > gasSum) return -1
-
-    const diff = []
+    let startInd = gas.length
+    let sum = 0
     for(let i=0; i<gas.length; i++) {
-        diff.push(gas[i] - cost[i])
-    }
-    
-    let total = 0
-    let ind = 100000
-    for(let i=0; i<diff.length; i++) {
-        total += diff[i];
-        if(total < 0) {
-            total = 0
-            ind = 1000000
+        const diff = gas[i]-cost[i]
+        sum += diff
+        if(sum < 0) {
+            sum = 0
+            startInd = gas.length
         } else {
-            ind = Math.min(ind, i)
+            startInd = Math.min(startInd, i)
         }
     }
-    return ind
+    return startInd
+
+
 };
