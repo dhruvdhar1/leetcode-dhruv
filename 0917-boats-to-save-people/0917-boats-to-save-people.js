@@ -1,0 +1,20 @@
+/**
+ * @param {number[]} people
+ * @param {number} limit
+ * @return {number}
+ */
+var numRescueBoats = function(people, limit) {
+    people.sort((a, b) => b-a)
+    let l=0, r=people.length-1
+    let boat = 0
+    while(l<=r) {
+        if(people[l] + people[r] <= limit) {
+            l++
+            r--
+        } else {
+            l++
+        }
+        boat++
+    }
+    return boat
+};
