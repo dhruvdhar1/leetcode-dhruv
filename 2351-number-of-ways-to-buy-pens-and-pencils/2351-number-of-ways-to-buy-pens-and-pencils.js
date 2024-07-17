@@ -12,5 +12,6 @@ var waysToBuyPensPencils = function(total, cost1, cost2) {
         count += (parseInt(rem/cost2) + 1)
         numPen++
     }
+    
     return count
 };
