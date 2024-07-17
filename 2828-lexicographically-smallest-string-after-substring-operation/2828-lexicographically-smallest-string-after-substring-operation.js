@@ -3,7 +3,6 @@
  * @return {string}
  */
 var smallestString = function(s) {
-    // const newChar = String.fromCharCode((ch.charCodeAt(0) - 1))
     const len = s.length
     let i=0
     const res = []
