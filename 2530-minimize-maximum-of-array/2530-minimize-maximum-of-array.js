@@ -8,7 +8,7 @@ var minimizeArrayValue = function(nums) {
     for(let i=1; i<nums.length; i++) {
         sum += nums[i]
         const max = Math.ceil(sum/(i+1))
-        if(max > res) res = max
+        res = Math.max(res, max)
     }
     return res
 };
