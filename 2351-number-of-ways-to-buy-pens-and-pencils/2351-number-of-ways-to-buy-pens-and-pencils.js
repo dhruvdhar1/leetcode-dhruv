@@ -9,9 +9,9 @@ var waysToBuyPensPencils = function(total, cost1, cost2) {
     let count = 0
     while(numPen * cost1 <= total) {
         const rem = total - numPen*cost1
-        count += (parseInt(rem/cost2) + 1)
+        count += (Math.trunc(rem/cost2) + 1)
         numPen++
     }
-    
+
     return count
 };
