@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
+| [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 | [2604-minimum-operations-to-make-array-equal-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2604-minimum-operations-to-make-array-equal-ii) |
 ## Game Theory
 |  |
@@ -115,5 +116,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2877-shortest-string-that-contains-three-strings) |
 <!---LeetCode Topics End-->
