@@ -3,24 +3,25 @@
  * @return {boolean}
  */
 var isHappy = function(n) {
-    const getSqOfDigits = (num) => { //19
-        let sq = 0 //81
-        while(num > 0) {
-            const rem = num%10
-            sq += (rem * rem)
-            num = Number.parseInt(num/10)
-        }
-        // console.log("sqqqq: ", sq)
-        return sq
-    }
-
     const set = new Set()
-    while(!set.has(n)) {
-        set.add(n)
-        n = getSqOfDigits(n)
-        if(n === 1) return true
+    while(n !== 1) {
+        const sumOfSq = calcSUmOfSq(n)
+        // console.log("---> ", sumOfSq)
+        if(sumOfSq !== 1 && set.has(sumOfSq)) {
+            return false
+        }
+        set.add(sumOfSq)
+        n = sumOfSq
     }
-    return false
-
-
+    return true
 };
+
+function calcSUmOfSq(n) {
+    let sum = 0
+    while(n > 0) {
+        const digit = n%10
+        sum += digit*digit
+        n = parseInt(n/10)
+    }
+    return sum
+}
