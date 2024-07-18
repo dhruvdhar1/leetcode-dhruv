@@ -12,12 +12,12 @@ var miceAndCheese = function(reward1, reward2, k) {
     }, 0)
     for(let i=0; i<reward1.length; i++) {
         const diff = reward1[i] - reward2[i]
-        arr.push(diff)
+        reward1[i] = diff
+        // arr.push(diff)
     }
-    arr.sort((a, b) => a-b)
-
-    while(k-- > 0) {
-        res += arr.pop()
+    reward1.sort((a, b) => a-b)
+    while(k-->0) {
+        res += reward1.pop()
     }
     return res
 };
