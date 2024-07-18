@@ -5,7 +5,6 @@
  */
 var maximumUnits = function(boxTypes, truckSize) {
     boxTypes.sort((a, b) => b[1] - a[1])
-    console.log("sort: ", boxTypes)
     let total = 0
     for(let i=0; i<boxTypes.length; i++) {
         const num = boxTypes[i][0]
