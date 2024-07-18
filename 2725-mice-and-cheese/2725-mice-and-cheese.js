@@ -5,19 +5,19 @@
  * @return {number}
  */
 var miceAndCheese = function(reward1, reward2, k) {
-    let sum = reward2.reduce((acc, curr) => {
+    const arr = []
+    let res = reward2.reduce((acc, curr) => {
         acc += curr
         return acc
     }, 0)
-    
-    const arr = []
     for(let i=0; i<reward1.length; i++) {
-        const val = reward1[i] - reward2[i]
-        arr.push(val)
+        const diff = reward1[i] - reward2[i]
+        arr.push(diff)
     }
-    arr.sort((a, b) => b-a)
-    for(let i=0; i<k; i++) {
-        sum += arr[i]
+    arr.sort((a, b) => a-b)
+
+    while(k-- > 0) {
+        res += arr.pop()
     }
-    return sum
+    return res
 };
