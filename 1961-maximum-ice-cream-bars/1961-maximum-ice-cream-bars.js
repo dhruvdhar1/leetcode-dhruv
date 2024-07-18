@@ -9,12 +9,10 @@ var maxIceCream = function(costs, coins) {
     for(let i=0; i<costs.length; i++) {
         bucket[costs[i]]++
     }
-    // console.log("bbb: ", bucket)
     let count = 0
     let i=1
     while(i < bucket.length) {
-        const buy = Math.min(bucket[i], parseInt(coins/i))
-        // console.log(i, "buy: ", buy)
+        const buy = Math.min(bucket[i], Math.trunc(coins/i))
         count += buy
         coins -= (buy*i)
         i++
