@@ -3,35 +3,30 @@
  * @return {boolean}
  */
 var checkValidString = function(s) {
-    const open = []
-    const wild = []
+    const stk1 = []
+    const stk2 = []
     for(let i=0; i<s.length; i++) {
-        const ch = s[i]
-        if(ch === '(') {
-            open.push(i)
-        } else if(ch === ')') {
-            if(open.length > 0) {
-                open.pop()
-            } else if(wild.length > 0) {
-                wild.pop()
+        if(s[i] === '(') {
+            stk1.push(i)
+        } else if(s[i] === ')') {
+            if(stk1.length > 0) {
+                stk1.pop()
+            } else if(stk2.length > 0) {
+                stk2.pop()
             } else {
                 return false
             }
         } else {
-            wild.push(i)
+            stk2.push(i)
         }
     }
-
-    // console.log("-----open: ", open, " : wild: ", wild)
-    if(open.length === 0) return true
-    while(open.length > 0) {
-        if(wild.length === 0) return false
-        const openPoll = open[open.length-1]
-        const wildPoll = wild[wild.length-1]
-        if(wildPoll < openPoll) return false
-        open.pop()
-        wild.pop()
+    
+    while(stk1.length > 0 && stk2.length > 0) {
+        const openPoll = stk1[stk1.length-1]
+        const wildcardPoll = stk2[stk2.length-1]
+        if(wildcardPoll < openPoll) return false
+        stk1.pop()
+        stk2.pop()
     }
-    // console.log("open: ", open, " : wild: ", wild)
-    return true
+    return stk2.length >= stk1.length
 };
