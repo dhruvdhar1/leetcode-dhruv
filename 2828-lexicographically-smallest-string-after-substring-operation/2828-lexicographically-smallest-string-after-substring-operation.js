@@ -3,26 +3,19 @@
  * @return {string}
  */
 var smallestString = function(s) {
-    const len = s.length
-    let i=0
-    const res = []
-    while(s[i] === "a" && i < len) {
-        i++
-        res.push("a")
+    const arr = s.split("")
+    let p=0
+    while(s[p] === 'a') {
+        p++
     }
-    if(i === len) {
-        res[res.length-1] = "z"
-        return res.join("")
+    if(p === s.length) {
+        arr[arr.length-1] = "z"
     }
-    let j=i;
-    while(j<len && s[j] !== "a") {
-        const ch = s[j]
-        res.push(String.fromCharCode((ch.charCodeAt(0) - 1)))
-        j++
+    while(p < s.length && s[p] !== 'a') {
+        const ch = s[p]
+        const newCh = String.fromCharCode(ch.charCodeAt(0)-1)
+        arr[p] = newCh
+        p++
     }
-    while(j<len) {
-        res.push(s[j])
-        j++
-    }
-    return res.join("")
+    return arr.join("")
 };
