@@ -19,7 +19,6 @@ var isNStraightHand = function(hand, groupSize) {
         const min = minHeap[minHeap.length-1]
         for(i=min; i<min+groupSize; i++) {
             if(!map.has(i)) {
-                // console.log("---: ", i, " : ", num)
                 return false
             }
 
