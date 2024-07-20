@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
+| [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
+| [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [2725-mice-and-cheese](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2725-mice-and-cheese) |
 ## Hash Table
 |  |
@@ -164,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
+| [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
@@ -182,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
+| [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Design
 |  |
@@ -207,4 +212,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
