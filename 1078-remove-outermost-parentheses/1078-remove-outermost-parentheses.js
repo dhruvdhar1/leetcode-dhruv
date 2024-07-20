@@ -15,10 +15,13 @@ var removeOuterParentheses = function(s) {
         }
 
         if(open === close) {
-            res += s.slice(l+1, r)
             l = r+1
             open = 0
             close = 0
+        } else {
+            if(open > 1) {
+                res += ch
+            }
         }
         r++
     }
