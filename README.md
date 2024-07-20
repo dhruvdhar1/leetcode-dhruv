@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2487-optimal-partition-of-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2487-optimal-partition-of-string) |
 | [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2877-shortest-string-that-contains-three-strings) |
+| [3451-string-compression-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/3451-string-compression-iii) |
 ## Two Pointers
 |  |
 | ------- |
