@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1988-minimize-maximum-pair-sum-in-array) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1988-minimize-maximum-pair-sum-in-array) |
@@ -201,4 +203,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0812-rotate-string) |
+## Matrix
+|  |
+| ------- |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 <!---LeetCode Topics End-->
