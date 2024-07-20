@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1078-remove-outermost-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1078-remove-outermost-parentheses) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [2487-optimal-partition-of-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2487-optimal-partition-of-string) |
 | [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1078-remove-outermost-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1078-remove-outermost-parentheses) |
 ## Divide and Conquer
 |  |
 | ------- |
