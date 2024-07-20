@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1078-remove-outermost-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1078-remove-outermost-parentheses) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2032-largest-odd-number-in-string) |
 | [2487-optimal-partition-of-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2487-optimal-partition-of-string) |
 | [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2487-optimal-partition-of-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2487-optimal-partition-of-string) |
 | [2920-minimum-seconds-to-equalize-a-circular-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2920-minimum-seconds-to-equalize-a-circular-array) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 ## Design
 |  |
