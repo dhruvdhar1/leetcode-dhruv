@@ -3,14 +3,14 @@
  * @return {number}
  */
 var maxDepth = function(s) {
-    const stk = []
+    let open=0
     let depth = 0
     for(const ch of s) {
         if(ch === '(') {
-            stk.push(ch)
-            depth = Math.max(depth, stk.length)
+            open++
+            depth = Math.max(depth, open)
         } else if(ch === ')') {
-            stk.pop()
+            open--
         }
     }
     return depth
