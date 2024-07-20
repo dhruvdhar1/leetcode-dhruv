@@ -12,7 +12,7 @@ var largestOddNumber = function(num) {
             flag = true
         }
         if(flag) {
-            str = digit + str
+            str = `${digit}${str}`
         }
     }
     return str
