@@ -6,13 +6,11 @@
 var characterReplacement = function(s, k) {
     let l=0, r=0, res=0
     const map = new Map()
+    let maxF = 0
     while(r < s.length) {
         map.set(s[r], (map.get(s[r]) || 0) + 1)
-        let f = -1
-        for(const [key, val] of map) {
-            f = Math.max(f, val)
-        }
-        if(r-l+1 - f <= k) {
+        maxF = Math.max(maxF, map.get(s[r]))
+        if(r-l+1 - maxF <= k) {
             res = Math.max(res, r-l+1)
             r++
         } else {
