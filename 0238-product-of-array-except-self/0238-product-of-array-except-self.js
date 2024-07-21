@@ -3,27 +3,28 @@
  * @return {number[]}
  */
 var productExceptSelf = function(nums) {
-    const post = []
-    const pre = []
-    const res = []
+    let prod = 1
+    let zero = 0
+    let res = []
     for(let i=0; i<nums.length; i++) {
-        if(i === 0) {
-            pre.push(1)
-        } else {
-            pre.push(nums[i-1] * pre[i-1])
+        if(nums[i] === 0) {
+            zero++
+            continue
         }
+        prod *= nums[i]
     }
-    let j=0
-    for(let i=nums.length-1; i>=0; i--) {
-        if(i === nums.length-1) {
-            post.push(1)
+    for(let i=0; i<nums.length; i++) {
+        if(nums[i] === 0 && zero === 1) {
+            res[i] = prod
+            continue
+        } 
+        if(zero > 1) {
+            res[i] = 0
+        } else if(zero === 1) {
+            res[i] = 0
         } else {
-            post.push(nums[i+1] * post[j++])
+            res[i] = prod/nums[i]
         }
-    }
-    j=nums.length-1
-    for(i=0; i<nums.length; i++) {
-        res.push(pre[i] * post[j--])
     }
     return res
 };
