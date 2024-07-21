@@ -10,14 +10,12 @@ var characterReplacement = function(s, k) {
     while(r < s.length) {
         map.set(s[r], (map.get(s[r]) || 0) + 1)
         maxF = Math.max(maxF, map.get(s[r]))
-        if(r-l+1 - maxF <= k) {
-            res = Math.max(res, r-l+1)
-            r++
-        } else {
+        while(r-l+1 - maxF > k) {
             map.set(s[l], map.get(s[l]) - 1)
-            map.set(s[r], (map.get(s[r]) || 0) - 1)
             l++
         }
+        res = Math.max(res, r-l+1)
+        r++
     }
     return res 
 };
