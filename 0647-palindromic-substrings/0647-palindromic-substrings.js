@@ -2,25 +2,21 @@
  * @param {string} s
  * @return {number}
  */
-function checkPalindrome(s, i, j) {
-    while(i <= j) { 
-        if(s[i] !== s[j]) {
-            return false
-        }
-        i++
-        j--
+function checkPalindrome(s, l, r) {
+    let count = 0
+    while(l >= 0 && r<s.length && s[l] === s[r]) { 
+        count++
+        l--
+        r++
     }
-    return true
+    return count
 }
 var countSubstrings = function(s) {
     let res = 0
     for(let i=0; i<s.length; i++) {
-        for(let j=i; j<s.length; j++) {
-            const substr = s.slice(i, j+1)
-            if(checkPalindrome(s, i, j)) {
-                res++
-            }
-        }
+        const size1 = checkPalindrome(s, i, i)
+        const size2 = checkPalindrome(s, i, i+1)
+        res += (size1+size2)
     }
     return res
 };
