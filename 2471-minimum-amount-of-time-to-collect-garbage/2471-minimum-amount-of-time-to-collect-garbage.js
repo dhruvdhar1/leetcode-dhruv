@@ -4,73 +4,35 @@
  * @return {number}
  */
 var garbageCollection = function(garbage, travel) {
-    let maxP = -1, maxG = -1, maxM = -1
+    let last = [-1, -1, -1]
     let res = 0
     const map = new Map()
 
     for(let i=0; i<garbage.length; i++) {
         const garbageStr = garbage[i]
-        const articles = [0,0,0] //M, P, G
         for(const ch of garbageStr) {
             if(ch === "G") {
-                articles[2]++
-                maxG = i
+                last[2] = i
             }
             else if(ch === "P") {
-                articles[1]++
-                maxP = i
+                last[1] = i
             }
             else {
-                articles[0]++
-                maxM = i
+                last[0] = i
             }
         }
-        map.set(i, articles)
+        res += garbageStr.length
     }
-    // console.log("mmm: ", map)
-    //M
-    let travelTime = 0, pickupTime = 0
-    for(let i=0; i<garbage.length; i++) {
-        if(i > maxM) break
-        if(i !== 0) {
-            travelTime += travel[i-1]
-        }
-        const articles = map.get(i)
-        const metal = articles[0]
-        if(metal > 0) {
-            pickupTime += metal
-        }
+    for(let i=1; i<travel.length; i++) {
+        travel[i] = travel[i] + travel[i-1]
     }
-    res += (travelTime + pickupTime)
 
-    //G
-    travelTime = 0, pickupTime = 0
-    for(let i=0; i<garbage.length; i++) {
-        if(i > maxG) break
-        if(i !== 0) {
-            travelTime += travel[i-1]
-        }
-        const articles = map.get(i)
-        const glass = articles[2]
-        if(glass > 0) {
-            pickupTime += glass
+    for(const ind in ["M", "P", "G"]) {
+        const l = last[ind]
+        if(l > 0) {
+            // console.log("llll: ", l, " : ", travel[l-1])
+            res += travel[l-1]
         }
     }
-    res += (travelTime + pickupTime)
-
-    travelTime = 0, pickupTime = 0
-    for(let i=0; i<garbage.length; i++) {
-        if(i > maxP) break
-        if(i !== 0) {
-            travelTime += travel[i-1]
-        }
-        const articles = map.get(i)
-        const paper = articles[1]
-        if(paper > 0) {
-            pickupTime += paper
-        }
-    }
-    res += (travelTime + pickupTime)
-
     return res
 };
