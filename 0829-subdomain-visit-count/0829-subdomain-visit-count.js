@@ -7,7 +7,7 @@ var subdomainVisits = function(cpdomains) {
     const res = []
     for(const cp of cpdomains) {
         const cpdom = cp.split(" ")
-        const visits = Number.parseInt(cpdom[0])
+        const visits = +cpdom[0]
         const parts = cpdom[1].split(".")
         let dom1, dom2, dom3
         if(parts.length > 2) {
@@ -20,7 +20,6 @@ var subdomainVisits = function(cpdomains) {
             dom2 = `${parts[0]}.${parts[1]}`
             dom3 = `${parts[1]}`
         }
-        // console.log(dom1, " : ", dom2, " : ", dom3)
         const dom2Freq = map.get(dom2) || 0
         const dom3Freq = map.get(dom3) || 0
 
