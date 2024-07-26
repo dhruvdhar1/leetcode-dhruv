@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0605-can-place-flowers) |
+| [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0812-rotate-string) |
+| [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1078-remove-outermost-parentheses) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1369-minimum-swaps-to-make-strings-equal) |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
+| [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
+| [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
