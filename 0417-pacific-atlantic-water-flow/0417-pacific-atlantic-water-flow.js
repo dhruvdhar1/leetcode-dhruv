@@ -3,62 +3,33 @@
  * @return {number[][]}
  */
 var pacificAtlantic = function(heights) {
-    function checkAtlantic(i, j, visited) {
-        // console.log(i, " : ", j)
+    function dfs(i, j, prevheight, visited) {
         const key = `${i}:${j}`
-        if(i >= heights.length-1 || j >= heights[0].length-1) return true
-        if(i < 0 || j < 0 || visited.has(key)) return false
-
-        let flag = false
+        if(i < 0 || j < 0 || i >= heights.length || j >= heights[0].length
+                || visited.has(key) || heights[i][j] < prevheight) return
         visited.add(key)
-        if(heights[i+1][j] <= heights[i][j]) {
-            flag = flag || checkAtlantic(i+1, j, visited)
-        }
-        if(heights[i][j+1] <= heights[i][j]) {
-            flag = flag || checkAtlantic(i, j+1, visited)
-        }
-        if(i-1 >= 0 && heights[i-1][j] <= heights[i][j]) {
-            flag = flag || checkAtlantic(i-1, j, visited)
-        }
-        if(j-1 >= 0 && heights[i][j-1] <= heights[i][j]) {
-            flag = flag || checkAtlantic(i, j-1, visited)
-        }
-        return flag
+        dfs(i+1, j, heights[i][j], visited)
+        dfs(i-1, j, heights[i][j], visited)
+        dfs(i, j+1, heights[i][j], visited)
+        dfs(i, j-1, heights[i][j], visited)
     }
-
-
-    function checkPacific(i, j, visited) {
-        const key = `${i}:${j}`
-        if(i <= 0 || j <= 0) return true
-        if(i >= heights.length || j >= heights[0].length || visited.has(key)) return false
-
-        let flag = false
-        visited.add(key)
-        if(i+1 <= heights.length-1 && heights[i+1][j] <= heights[i][j]) {
-            flag = flag || checkPacific(i+1, j, visited)
-        }
-        if(j+1 <= heights[0].length && heights[i][j+1] <= heights[i][j]) {
-            flag = flag || checkPacific(i, j+1, visited)
-        }
-        if(heights[i-1][j] <= heights[i][j]) {
-            flag = flag || checkPacific(i-1, j, visited)
-        }
-        if(heights[i][j-1] <= heights[i][j]) {
-            flag = flag || checkPacific(i, j-1, visited)
-        }
-        return flag
-    }
-    const res = []
+    const pacSet = new Set()
+    const atlSet = new Set()
     
-    for(let i=0; i<heights.length; i++) {
-        for(let j=0; j<heights[0].length; j++) {
-            let visited = new Set()
-            const atlantic = checkAtlantic(i, j, visited)
-            visited = new Set()
-            const pacific = checkPacific(i, j, visited)
-            if(atlantic && pacific) {
-                res.push([i,j])
-            }
+    for(let r=0; r<heights[0].length; r++) {
+        dfs(0, r, heights[0][r], pacSet)
+        dfs(heights.length-1, r, heights[heights.length-1][r], atlSet)
+    }
+
+    for(let c=0; c<heights.length; c++) {
+        dfs(c, 0, heights[c][0], pacSet)
+        dfs(c, heights[0].length-1, heights[c][heights[0].length-1], atlSet)
+    }
+
+    const res = []
+    for(const cor of pacSet) {
+        if(atlSet.has(cor)) {
+            res.push(cor.split(":"))
         }
     }
     return res
