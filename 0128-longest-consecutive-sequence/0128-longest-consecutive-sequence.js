@@ -11,13 +11,11 @@ var longestConsecutive = function(nums) {
     let maxCount = 1
     for(const num of nums) {
         if(!set.has(num-1)) {
-            let count = 1
             let curr = num
             while(set.has(curr+1)) {
-                count++
                 curr+=1
             }
-            maxCount = Math.max(maxCount, count)
+            maxCount = Math.max(maxCount, curr-num+1)
         }
     }
     return maxCount
