@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0135-candy) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
@@ -267,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0036-valid-sudoku) |
+| [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Bucket Sort
 |  |
@@ -289,4 +292,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
