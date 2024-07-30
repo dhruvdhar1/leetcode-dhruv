@@ -18,12 +18,12 @@ function dfs(root1, root2) {
     if(root1 === null || root2 === null) {
         if(root1) {
             root.val = root1.val
-            root.left = dfs(root1.left, null)
-            root.right = dfs(root1.right, null)
+            root.left = root1.left
+            root.right = root1.right
         } else {
             root.val = root2.val
-            root.left = dfs(null, root2.left)
-            root.right = dfs(null, root2.right)
+            root.left = root2.left
+            root.right = root2.right
         }
     } else {
         root.val = root1.val + root2.val
