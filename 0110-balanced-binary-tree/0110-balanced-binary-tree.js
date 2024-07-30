@@ -12,12 +12,10 @@
  */
 var isBalanced = function(root) {
     let balanced = true
-    
     function dfs(node) {
         if(null === node) return 0
         const lh = dfs(node.left)
         const rh = dfs(node.right)
-        // console.log(node.val, " : ", lh, " : ", rh)
         if(Math.abs(lh-rh) > 1) {
             balanced = false
         }
