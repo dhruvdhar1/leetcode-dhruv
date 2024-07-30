@@ -18,13 +18,13 @@ var levelOrder = function(root) {
         const level = []
         const size = queue.length
         for(let i=0; i<size; i++) {
-            const pop = queue.shift()
+            const pop = queue.pop()
             if(pop) {
                 if(pop.left) {
-                    queue.push(pop.left)
+                    queue.unshift(pop.left)
                 }
                 if(pop.right) {
-                    queue.push(pop.right)
+                    queue.unshift(pop.right)
                 }
                 level.push(pop.val)
             }
