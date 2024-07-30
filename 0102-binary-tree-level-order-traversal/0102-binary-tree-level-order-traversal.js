@@ -11,18 +11,25 @@
  * @return {number[][]}
  */
 var levelOrder = function(root) {
-    const map = new Map()
-    function dfs(node, height) {
-        if(null === node) return
-
-        if(!map.has(height)) {
-            map.set(height, [])
+    if(null === root) return []
+    const queue = [root]
+    const res = []
+    while(queue.length > 0) {
+        const level = []
+        const size = queue.length
+        for(let i=0; i<size; i++) {
+            const pop = queue.shift()
+            if(pop) {
+                if(pop.left) {
+                    queue.push(pop.left)
+                }
+                if(pop.right) {
+                    queue.push(pop.right)
+                }
+                level.push(pop.val)
+            }
         }
-        map.get(height).push(node.val)
-
-        dfs(node.left, height+1)
-        dfs(node.right, height+1)
+        res.push(level)
     }
-    dfs(root, 0)
-    return Array.from(map.values())
+    return res
 };
