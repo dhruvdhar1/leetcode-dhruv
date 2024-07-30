@@ -14,11 +14,11 @@
  */
 var lowestCommonAncestor = function(root, p, q) {
     
-    function dfs(node, pval, qval) {
+    function dfs(node) {
         if(node === null) return null
 
-        const l = dfs(node.left, pval, qval)
-        const r = dfs(node.right, pval, qval)
+        const l = dfs(node.left)
+        const r = dfs(node.right)
 
         if(node.val === p.val || node.val === q.val) return node
         if(l && r) return node
@@ -28,5 +28,5 @@ var lowestCommonAncestor = function(root, p, q) {
         return null
     }
 
-    return dfs(root, p.val, q.val)
+    return dfs(root)
 };
