@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0036-valid-sudoku) |
+| [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0128-longest-consecutive-sequence) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0006-zigzag-conversion) |
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0424-longest-repeating-character-replacement) |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0036-valid-sudoku) |
+| [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0417-pacific-atlantic-water-flow) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -359,4 +362,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
