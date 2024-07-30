@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 ## Depth-First Search
 |  |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0417-pacific-atlantic-water-flow) |
+| [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 ## Math
 |  |
@@ -281,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0812-rotate-string) |
 ## Matrix
 |  |
@@ -305,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [2339-k-divisible-elements-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2339-k-divisible-elements-subarrays) |
 ## Quickselect
 |  |
