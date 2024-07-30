@@ -17,16 +17,10 @@ var kthSmallest = function(root, k) {
         if(node === null) return -1
         const l = dfs(node.left)
         ind++
-        // console.log("------> ", node.val, " : ", ind)
         if(ind === k) return node.val
         
         const r = dfs(node.right)
-        
-        if(l !== -1) {
-            return l
-        } else {
-            return r
-        }
+        return l!==-1 ? l : r
     }
     return dfs(root)
 };
