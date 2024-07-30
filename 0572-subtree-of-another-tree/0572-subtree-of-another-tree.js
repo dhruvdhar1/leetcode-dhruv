@@ -21,6 +21,7 @@ function dfs(root, subRoot) {
     let equal = false
     if(root.val === subRoot.val) {
         equal = isEqual(root, subRoot)
+        if(equal) return true
     }
     return equal || dfs(root.left, subRoot) || dfs(root.right, subRoot)
 }
