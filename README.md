@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0617-merge-two-binary-trees) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0617-merge-two-binary-trees) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0617-merge-two-binary-trees) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Math
 |  |
 | ------- |
