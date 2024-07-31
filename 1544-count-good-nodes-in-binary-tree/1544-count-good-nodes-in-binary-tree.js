@@ -22,7 +22,6 @@ var goodNodes = function(node) {
         dfs(root.left, Math.max(currMax, root.val))
         dfs(root.right, Math.max(currMax, root.val))
     }
-
-    dfs(node, -100000001)
+    dfs(node, Number.MIN_SAFE_INTEGER)
     return count
 };
