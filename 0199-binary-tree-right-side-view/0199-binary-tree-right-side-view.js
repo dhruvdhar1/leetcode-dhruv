@@ -11,25 +11,15 @@
  * @return {number[]}
  */
 var rightSideView = function(root) {
-    if(null === root) return []
-    const q = [root]
-    const res = []
-    while(q.length > 0) {
-        const level = []
-        const size = q.length
-        for(let i=0; i<size; i++) {
-            const pop = q.shift()
-            if(!pop) continue;
-            
-            level.push(pop.val)
-            if(pop.left) {
-                q.push(pop.left)
-            }
-            if(pop.right) {
-                q.push(pop.right)
-            }
-        }
-        res.push(level.pop())
+    const map = new Map()
+
+    function dfs(node, height) {
+        if(null === node) return 
+        map.set(height, node.val)
+        dfs(node.left, height+1)
+        dfs(node.right, height+1)
     }
-    return res
+
+    dfs(root, 0)
+    return Array.from(map.values())
 };
