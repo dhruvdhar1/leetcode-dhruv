@@ -28,6 +28,5 @@ var leafSimilar = function(root1, root2) {
     for(let i=0; i<arr1.length; i++) {
         if(arr1[i] !== arr2[i]) return false
     }
-    console.log(arr1, " : ", arr2)
     return true
 };
