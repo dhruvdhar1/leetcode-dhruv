@@ -28,7 +28,6 @@ var deleteNode = function(root, key) {
             let temp = rt
             while(temp.left !== null) {
                 temp = temp.left
-                // console.log("tt: ", temp.val, " : temp parent: ", tempParent.val)
             }
             root.val = temp.val
             root.right = deleteNode(root.right, temp.val)
