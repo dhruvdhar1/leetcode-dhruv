@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0036-valid-sudoku) |
 | [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0647-palindromic-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
