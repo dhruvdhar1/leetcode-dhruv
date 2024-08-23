@@ -1,25 +1,30 @@
 class Solution {
-    private int backtrack(int currAmount, int[] coins, int amount, int[] dp) {
-        if(currAmount > amount) return -1;
-        if(currAmount == amount) return 0;
-        
-        if(dp[currAmount] != 0) return dp[currAmount];
-        
-        int res = 100000001;
-        for(int i=coins.length-1; i>=0; i--) {
-            if(coins[i] <= amount && currAmount+coins[i] <= amount) {
-                int temp = backtrack(currAmount+coins[i], coins, amount, dp);
-                if(temp >= 0) {
-                    res = Math.min(res, 1+temp);
-                }
-            }
+    int backtrack(int[] coins, int amount, int[] dp) {
+        if(amount == 0) {
+            return 0;
         }
-        return dp[currAmount] = (res == 100000001) ? -1 : res;
-        
+        if(amount < 0) return 10001;
+        if(dp[amount] != -1) return dp[amount];
+        int minCoins = 10001;
+        for(int i=0; i<coins.length; i++) {
+            if(coins[i] > amount) continue;
+            int res = backtrack(coins, amount-coins[i], dp);
+            if(res == -1) {
+                continue;
+            }
+            minCoins = Math.min(minCoins, 1+res);
+        }
+        dp[amount] = minCoins;
+        return dp[amount];
     }
+
     public int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount+1];
+        for(int i=0; i<dp.length; i++) {
+            dp[i] = -1;
+        }
         Arrays.sort(coins);
-        return backtrack(0, coins, amount, dp);
+        int res = backtrack(coins, amount, dp);
+        return res >= 10001 ? -1 : res;
     }
 }
