@@ -3,7 +3,7 @@ class Solution {
         if(amount == 0) {
             return 0;
         }
-        if(amount < 0) return 10001;
+        // if(amount < 0) return 10001;
         if(dp[amount] != -1) return dp[amount];
         int minCoins = 10001;
         for(int i=0; i<coins.length; i++) {
