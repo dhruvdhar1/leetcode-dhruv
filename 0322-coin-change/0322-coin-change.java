@@ -7,12 +7,10 @@ class Solution {
         if(dp[amount] != -1) return dp[amount];
         int minCoins = 10001;
         for(int i=0; i<coins.length; i++) {
-            if(coins[i] > amount) continue;
-            int res = backtrack(coins, amount-coins[i], dp);
-            if(res == -1) {
-                continue;
+            if(coins[i] <= amount) {
+                int res = backtrack(coins, amount-coins[i], dp);
+                minCoins = Math.min(minCoins, 1+res);
             }
-            minCoins = Math.min(minCoins, 1+res);
         }
         dp[amount] = minCoins;
         return dp[amount];
