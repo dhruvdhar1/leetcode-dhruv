@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
+| [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0152-maximum-product-subarray) |
+| [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
 | [0647-palindromic-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
@@ -225,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
