@@ -1,28 +1,42 @@
-class Solution {
-    int backtrack(int[] nums, int prev, int ind, int[][] dp) {
-        if(ind >= nums.length) return 0;
-        if(prev !=-1 && dp[prev][ind] != -1) return dp[prev][ind];
+/**
+    [10,9,2,5,3,7,101,18]
+    
+    [3,5,6,2,5,4,19,5,6,7,12]
 
-        int a = -1;
-        int b = -1;
-        if(prev == -1 || nums[ind] > nums[prev]) {
-            a = Math.max(1 + backtrack(nums, ind, ind+1, dp), backtrack(nums, prev, ind+1, dp));
-        } else {
-            b = backtrack(nums, prev, ind+1, dp);
-        }
-        int res = Math.max(a, b);
-        if(prev != -1) {
-            dp[prev][ind] = res;
-        }
-        return res;
-    }
-    public int lengthOfLIS(int[] nums) {
-        int[][] dp = new int[nums.length+1][nums.length+1];
-        for(int i=0; i<dp.length; i++) {
-            for(int j=0; j<dp.length; j++) {
-                dp[i][j] = -1;
+    [2, 4, 5, 6, 7, 12]
+
+        lr
+    [2, 5, 6]
+ */
+class Solution {
+    int getLowerBound(List<Integer> temp, int num) {
+        int l=0, r=temp.size()-1;
+        while(l < r) {
+            int mid = l + (r-l)/2;
+            if(num == temp.get(mid)) {
+                return mid;
+            } else if (num > temp.get(mid)) {
+                l = mid + 1;
+            } else {
+                r = mid;
             }
         }
-        return backtrack(nums, -1, 0, dp);
+        return r;
+    }
+    public int lengthOfLIS(int[] nums) {
+        List<Integer> temp = new ArrayList();
+        temp.add(nums[0]);
+        for(int i=1; i<nums.length; i++) {
+            // System.out.println("arr: "+ temp.toString());
+            int num = nums[i];
+            if(num > temp.get(temp.size()-1)) {
+                temp.add(num);
+            } else {
+                int ind = getLowerBound(temp, num);
+                // System.out.println("ind: "+ ind);
+                temp.set(ind, num);
+            }
+        }
+        return temp.size();
     }
 }
