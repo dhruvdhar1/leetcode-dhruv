@@ -30,12 +30,9 @@ class Solution {
             curr = curr.next;
             i++;
         }
-        if(curr == null) {
-            prev.next = null;
-        } else {
-            prev.next = curr.next;
-            curr.next = null;
-        }
+        
+        prev.next = curr.next;
+        curr.next = null;
         return head;
     }
 }
