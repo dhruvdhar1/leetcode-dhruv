@@ -18,13 +18,12 @@ class Solution {
             // System.out.println("ff: "+ maxMapFreq);
             if((r-l+1 - maxMapFreq) <= k) {
                 longestWindowSize = Math.max(longestWindowSize, r-l+1);
-                r++;
             } else {
                 char charAtL = s.charAt(l);
                 map.put(charAtL, map.getOrDefault(charAtL, 0) - 1);
                 l++;
-                r++;
             }
+            r++;
         }
         return longestWindowSize;
     }
