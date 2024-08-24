@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0011-container-with-most-water) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
 ## Backtracking
 |  |
