@@ -9,8 +9,8 @@ class Solution {
         int b = -1;
         if(text1.charAt(ind1) == text2.charAt(ind2)) {
             a = 1 + backtrack(text1, text2, ind1+1, ind2+1, dp);
-        }  else{
-            b = Math.max(
+        }  else {
+            b = Math.max (
                 backtrack(text1, text2, ind1+1, ind2, dp),
                 backtrack(text1, text2, ind1, ind2+1, dp));
         }
@@ -21,11 +21,17 @@ class Solution {
         //TC: O(N * M)
         //SC: O(N * M)
         int[][] dp = new int[text1.length()+1][text2.length()+1];
-        for(int i=0; i<dp.length; i++) {
-            for(int j=0; j<dp[0].length; j++) {
-                dp[i][j] = -1;
+        
+        for(int i=1; i<=text1.length(); i++) {
+            for(int j=1; j<=text2.length(); j++) {
+                if(text1.charAt(i-1) == text2.charAt(j-1)) {
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                } else {
+                    dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1]);
+                }
             }
         }
-        return backtrack(text1, text2, 0, 0, dp);
+        // System.out.println("arr: "+ Arrays.toString(dp[0]));
+        return dp[text1.length()][text2.length()];
     }
 }
