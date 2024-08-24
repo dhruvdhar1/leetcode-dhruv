@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
+| [0062-unique-paths](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0091-decode-ways) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
@@ -424,4 +426,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
