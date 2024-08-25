@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0006-zigzag-conversion) |
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0812-rotate-string) |
 ## Matrix
