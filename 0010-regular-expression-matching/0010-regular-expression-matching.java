@@ -1,23 +1,25 @@
 class Solution {
-    private boolean backtrack(String s, String p, int sInd, int pInd) {
-        // System.out.println("sInd : "+ sInd + " - pInd: " + pInd);
-        if(pInd == p.length()) return sInd == s.length();
-        
-        
-        if(pInd+1 < p.length() && p.charAt(pInd+1) == '*') {
-            return sInd < s.length() && (p.charAt(pInd) == s.charAt(sInd) || p.charAt(pInd)  == '.') && 
-                        backtrack(s, p, sInd+1, pInd) || backtrack(s, p, sInd, pInd+2);
-        } else if (sInd < s.length() && p.charAt(pInd) == '.') {
-            return backtrack(s, p, sInd+1, pInd+1);
-        } else {
-            if(sInd < s.length() && p.charAt(pInd) == s.charAt(sInd)) {
-                return backtrack(s, p, sInd+1, pInd+1);
+    boolean backtrack(String s, String p, int i, int j, Boolean[][] dp) {
+        if(i >= s.length() && j >= p.length()) return true;
+        if(j >= p.length()) return false;
+
+        if(dp[i][j] != null) return dp[i][j];
+
+        if(j+1 < p.length() && p.charAt(j+1) == '*') {
+            if(i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) {
+                dp[i][j] = backtrack(s, p, i+1, j, dp) || backtrack(s, p, i, j+2, dp);
             } else {
-                return false;
+                dp[i][j] = backtrack(s, p, i, j+2, dp);
             }
+        } else if(i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) {
+            dp[i][j] = backtrack(s, p, i+1, j+1, dp);
+        } else {
+            dp[i][j] = false;
         }
+        return dp[i][j];
     }
     public boolean isMatch(String s, String p) {
-        return backtrack(s, p, 0, 0);
+        Boolean[][] dp = new Boolean[s.length()+1][p.length()+1];
+        return backtrack(s, p, 0, 0, dp);
     }
 }
