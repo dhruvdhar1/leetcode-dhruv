@@ -15,8 +15,8 @@ var findRedundantConnection = function(edges) {
         }
     }
     const find = (el) => {
-        if(el !== parent[el]) return find(parent[el])
-        return el
+        if(el !== parent[el]) parent[el] = find(parent[el])
+        return parent[el]
     }
 
     for(const edge of edges) {
