@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0904-leaf-similar-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0417-pacific-atlantic-water-flow) |
 | [0617-merge-two-binary-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -428,11 +430,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
+| [0684-redundant-connection](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 ## Graph
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0207-course-schedule) |
+| [0684-redundant-connection](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0684-redundant-connection) |
 ## Topological Sort
 |  |
 | ------- |
