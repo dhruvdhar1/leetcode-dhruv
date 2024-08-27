@@ -33,20 +33,26 @@ var maxProfit = function(prices, fee) {
     // TC: O(2 * n) = O(n)
     // const dp = new Map()
     // return backtrack(prices, fee, 0, true, dp);
-    const dp = new Array(prices.length+1)
-    for(let i=0; i<dp.length; i++) {
-        dp[i] = [0,0]
-    }
+
+    let lastBuy = 0, lastSell = 0;
+    let currBuy = 0, currSell = 0;
+    // const dp = new Array(prices.length+1)
+    // for(let i=0; i<dp.length; i++) {
+    //     dp[i] = [0,0]
+    // }
     for(let i=prices.length-1; i>=0; i--) {
         for(let j=0; j<=1; j++) {
             let profit = Number.MIN_SAFE_INTEGER;
             if(j === 1) {
-                profit = Math.max((-prices[i] + dp[i+1][0]), dp[i+1][1])
+                profit = Math.max((-prices[i] + lastBuy), lastSell)
+                currSell = profit
             } else {
-                profit = Math.max((prices[i] - fee + dp[i+1][1]), dp[i+1][0])
+                profit = Math.max((prices[i] - fee + lastSell), lastBuy)
+                currBuy = profit
             }
-            dp[i][j] = profit
         }
+        lastBuy = currBuy
+        lastSell = currSell
     }
-    return dp[0][1]
+    return currSell;
 };
