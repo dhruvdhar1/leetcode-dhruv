@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2459-minimum-hours-of-training-to-win-a-competition](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2459-minimum-hours-of-training-to-win-a-competition) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
+| [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
 | [2604-minimum-operations-to-make-array-equal-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2604-minimum-operations-to-make-array-equal-ii) |
 | [2706-minimum-score-by-changing-two-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2706-minimum-score-by-changing-two-elements) |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2339-k-divisible-elements-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2339-k-divisible-elements-subarrays) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
 | [2487-optimal-partition-of-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2487-optimal-partition-of-string) |
 | [2920-minimum-seconds-to-equalize-a-circular-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2920-minimum-seconds-to-equalize-a-circular-array) |
 ## Enumeration
@@ -479,4 +481,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0062-unique-paths) |
+## Simulation
+|  |
+| ------- |
+| [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
 <!---LeetCode Topics End-->
