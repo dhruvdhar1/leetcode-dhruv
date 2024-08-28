@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0227-basic-calculator-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
+| [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
 | [0647-palindromic-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
+| [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
 | [0554-brick-wall](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0554-brick-wall) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
+| [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
 ## Randomized
 |  |
 | ------- |
@@ -425,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [2339-k-divisible-elements-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2339-k-divisible-elements-subarrays) |
 ## Quickselect
