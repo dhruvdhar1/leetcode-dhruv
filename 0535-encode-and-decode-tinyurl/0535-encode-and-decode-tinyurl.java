@@ -1,17 +1,20 @@
 public class Codec {
+    ReentrantLock lock;
     Map<String, String> map;
     static final String PREFIX_URL = "http://tinyurl.com/";
 
     public Codec() {
         this.map = new HashMap();
-
+        lock = new ReentrantLock();
     }
 
     // Encodes a URL to a shortened URL.
     public String encode(String longUrl) {
+        lock.lock();
         String id = new StringBuilder("id-").append(map.size()).toString();
         String shortUrl = new StringBuilder(PREFIX_URL).append(id).toString();
         map.put(shortUrl, longUrl);
+        lock.unlock();
         return shortUrl;
     }
 
