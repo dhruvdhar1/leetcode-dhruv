@@ -1,6 +1,5 @@
 class Solution:
     def getPalindroms(self, s, start, end):
-        print("start: ", start, " , end: ", end)
         l,r= start,end
         count=0
         while l >= 0 and r < len(s) and s[l] == s[r]:
