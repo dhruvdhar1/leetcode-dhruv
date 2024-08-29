@@ -499,4 +499,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0461-hamming-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0461-hamming-distance) |
 <!---LeetCode Topics End-->
