@@ -45,7 +45,6 @@ const backtrack = (list, depth) => {
     const res = []
     const iteratable = Array.isArray(list) ? list : list.getList();
     for(const el of iteratable) {
-        console.log("flat: ", el, " : ", el.isInteger())
         if(!el.isInteger()) {
             const flat = backtrack(el, depth+1)
             res.push(...flat)
