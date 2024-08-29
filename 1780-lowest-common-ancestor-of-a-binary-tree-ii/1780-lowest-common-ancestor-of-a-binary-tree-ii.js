@@ -11,28 +11,23 @@
  * @param {TreeNode} q
  * @return {TreeNode}
  */
-const checkNodes = (root, p, q) => {
-    if(root === null) return 0
-    let sum = 0;
-    if(root === p || root === q) {
-        sum += 1
-    }
-    const l = checkNodes(root.left, p, q)
-    const r = checkNodes(root.right, p, q)
-    return sum + l + r;
-}
-const lca = (root, p, q) => {
-    if(root === null) return null;
-    if(root === p || root === q) return root;
 
-    const l = lca(root.left, p, q);
-    const r = lca(root.right, p, q);
-
-    if((l === p && r === q) || (l === q && r === p)) return root;
-    return l || r;
-}
 var lowestCommonAncestor = function(root, p, q) {
-    const sum = checkNodes(root, p, q)
+    let sum = 0
+    const lca = (node, p, q) => {
+        if(node === null) return null;
+
+        const l = lca(node.left, p, q);
+        const r = lca(node.right, p, q);
+        if(node === p || node === q) {
+            sum++;
+            return node;
+        }
+
+        if(l && r) return node;
+        return l || r;
+    }
+    const res = lca(root, p, q)
     if(sum !== 2) return null
-    return lca(root, p, q)
+    return res
 };
