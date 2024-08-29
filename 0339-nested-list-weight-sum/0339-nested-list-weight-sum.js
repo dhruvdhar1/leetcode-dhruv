@@ -42,25 +42,19 @@
  */
 
 const backtrack = (list, depth) => {
-    const res = []
+    let res = 0
     const iteratable = Array.isArray(list) ? list : list.getList();
     for(const el of iteratable) {
         if(!el.isInteger()) {
             const flat = backtrack(el, depth+1)
-            res.push(...flat)
+            res += flat
         } else {
-            res.push([el, depth])
+            res += el.getInteger() * depth
         }
     }
     return res
 }
 var depthSum = function(nestedList) {
     const flattened = backtrack(nestedList, 1)
-    let sum = 0
-    for(const el of flattened) {
-        
-        sum += (el[0].getInteger() * el[1])
-    }
-    console.log(flattened)
-    return sum
+    return flattened
 };
