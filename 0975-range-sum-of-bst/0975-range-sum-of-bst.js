@@ -13,17 +13,16 @@
  * @return {number}
  */
 var rangeSumBST = function(root, low, high) {
-    let sum = 0
     const dfs = (node) => {
-        if(node == null) return
+        if(node == null) return 0
+        let sum = 0
         if(node.val >= low && node.val <= high) {
-            // console.log("node: ", node.val)
             sum += node.val
         }
-        dfs(node.left)
-        dfs(node.right)
+        const a = dfs(node.left)
+        const b = dfs(node.right)
+        return sum + a + b
     }
 
-    dfs(root)
-    return sum
+    return dfs(root)
 };
