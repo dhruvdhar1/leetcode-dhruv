@@ -43,10 +43,9 @@
 
 const backtrack = (list, depth) => {
     let res = 0
-    const iteratable = Array.isArray(list) ? list : list.getList();
-    for(const el of iteratable) {
+    for(const el of list) {
         if(!el.isInteger()) {
-            const flat = backtrack(el, depth+1)
+            const flat = backtrack(el.getList(), depth+1)
             res += flat
         } else {
             res += el.getInteger() * depth
