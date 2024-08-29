@@ -21,23 +21,21 @@ var verticalOrder = function(root) {
 
     while(q.length > 0) {
         const pop = q.shift()
-        ///
+        const node = pop[0]
         const col = pop[1]
         if(!map.has(col)) {
             minCol = Math.min(minCol, col)
             maxCol = Math.max(maxCol, col)
             map.set(col, [])
         }
-        map.get(col).push(pop[0].val)
-        ///
-        if(pop[0].left != null) {
-            q.push([pop[0].left, col-1])
+        map.get(col).push(node.val)
+        if(node.left != null) {
+            q.push([node.left, col-1])
         }
-        if(pop[0].right != null) {
-            q.push([pop[0].right, col+1])
+        if(node.right != null) {
+            q.push([node.right, col+1])
         }
     }
-    // console.log("min: ", minCol, " : ", maxCol)
     const res = []
     for(let i=minCol; i<=maxCol; i++) {
         const values = map.get(i)
