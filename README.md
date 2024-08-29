@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1250-longest-common-subsequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1369-minimum-swaps-to-make-strings-equal) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Divide and Conquer
 |  |
