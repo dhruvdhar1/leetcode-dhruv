@@ -11,16 +11,19 @@
  * @return {number[][]}
  */
 
+/**
+    TC: O(n)
+    SC: O(n)
+ */
 var verticalOrder = function(root) {
     if(null === root) return []
     const map = new Map()
     let minCol = Number.MAX_SAFE_INTEGER
     let maxCol = Number.MIN_SAFE_INTEGER
 
-    const q = [[root, 0]]
-
-    while(q.length > 0) {
-        const pop = q.shift()
+    const q = new Queue([[root,0]])
+    while(q.size() > 0) {
+        const pop = q.pop() //O(1)
         const node = pop[0]
         const col = pop[1]
         if(!map.has(col)) {
