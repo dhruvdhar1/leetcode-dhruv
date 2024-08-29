@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0036-valid-sudoku) |
+| [0056-merge-intervals](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
