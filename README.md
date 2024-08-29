@@ -310,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0227-basic-calculator-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0227-basic-calculator-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
+| [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
 | [0523-continuous-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0670-maximum-swap) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1369-minimum-swaps-to-make-strings-equal) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
+| [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
 | [0424-longest-repeating-character-replacement](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0523-continuous-subarray-sum) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
+| [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
 ## Sliding Window
 |  |
 | ------- |
@@ -507,4 +510,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0461-hamming-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0461-hamming-distance) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
 <!---LeetCode Topics End-->
