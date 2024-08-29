@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0404-sum-of-left-leaves](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0543-diameter-of-binary-tree) |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0339-nested-list-weight-sum) |
 | [0404-sum-of-left-leaves](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0404-sum-of-left-leaves) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0417-pacific-atlantic-water-flow) |
@@ -303,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0404-sum-of-left-leaves](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0543-diameter-of-binary-tree) |
@@ -357,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
@@ -478,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0339-nested-list-weight-sum) |
 | [0404-sum-of-left-leaves](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0404-sum-of-left-leaves) |
