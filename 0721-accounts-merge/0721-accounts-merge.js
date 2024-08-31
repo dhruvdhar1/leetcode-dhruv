@@ -4,52 +4,53 @@
  */
 
 var accountsMerge = function(accounts) {
-    const accLen = accounts.length
-    const parent = []
-
-    for(let i=0; i<accLen; i++) {
-        parent.push(i)
-    }
-
-    const find = (el) => {
-        if(el !== parent[el]) return find(parent[el])
-        return el;
-    }
-    const union = (el1, el2) => {
-        const p1 = find(el1)
-        const p2 = find(el2)
+    const parent = accounts.map((_, i) => i); //[0,1,2,3,4,5,6]
+    const union = (n1, n2) => {
+        const p1 = find(n1)
+        const p2 = find(n2)
         if(p1 !== p2) {
-            parent[p2] = p1
+            parent[p1] = p2
         }
     }
-    
+    const find = (n1) => {
+        if(parent[n1] !== n1) {
+            return find(parent[n1])
+        }
+        return n1
+    }
     const emailMap = new Map()
     for(let i=0; i<accounts.length; i++) {
         for(let j=1; j<accounts[i].length; j++) {
             const email = accounts[i][j]
-            if(emailMap.has(email)) {
-                //perform merge..
-                const existingAcc = emailMap.get(email);
-                union(i, existingAcc)
-            } else {
+            if(!emailMap.has(email)) {
                 emailMap.set(email, i)
+            } else {
+                //merging
+                const existingAcc = emailMap.get(email)
+                union(i, existingAcc)
             }
         }
     }
-
-    const mergeMap = new Map()
-    for(const [email, accInd] of emailMap) {
-        const leader = find(accInd)
-        if(!mergeMap.has(leader)) {
-            mergeMap.set(leader, [])
+    const accToEmailMap = new Map()
+    for(let i=0; i<accounts.length; i++) {
+        const acc = i
+        const parent = find(acc)
+        if(!accToEmailMap.has(parent)) {
+            accToEmailMap.set(parent, [])
         }
-        mergeMap.get(leader).push(email)
+        accToEmailMap.get(parent).push(...accounts[i].slice(1))
     }
-    
+    // console.log("emailmap: ", accToEmailMap)
     const res = []
-    for(const [accInd, emails] of mergeMap) {
-        const name = accounts[accInd][0]
-        res.push([name, ...emails.sort()])
+
+    for(const [key, emails] of accToEmailMap) {
+        const name = accounts[key][0]
+        const emailSet = Array.from(new Set(emails)).sort()
+        res.push([name, ...emailSet])
     }
-    return res
+
+    return res;
 };
+
+//TC: O(m * nlogn)
+//SC: O(n)
