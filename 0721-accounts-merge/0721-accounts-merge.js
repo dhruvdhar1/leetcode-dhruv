@@ -51,5 +51,5 @@ var accountsMerge = function(accounts) {
     return res;
 };
 
-//TC: O(m * n)
+//TC: O(m * n^2)
 //SC: O(n)
