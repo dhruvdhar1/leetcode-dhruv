@@ -40,7 +40,6 @@ var accountsMerge = function(accounts) {
         }
         accToEmailMap.get(parent).push(...accounts[i].slice(1))
     }
-    // console.log("emailmap: ", accToEmailMap)
     const res = []
 
     for(const [key, emails] of accToEmailMap) {
@@ -51,6 +50,3 @@ var accountsMerge = function(accounts) {
 
     return res;
 };
-
-//TC: O(m * nlogn)
-//SC: O(n)
