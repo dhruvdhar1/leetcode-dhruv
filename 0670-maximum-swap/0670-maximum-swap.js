@@ -3,23 +3,23 @@
  * @return {number}
  */
 var maximumSwap = function(num) {
-    const numArr = String(num).split("")
-    const prefix = new Array(numArr.length)
-    prefix[prefix.length-1] = prefix.length-1
-    for(let i=numArr.length-2; i>=0; i--) {
-        if(numArr[i] > numArr[prefix[i+1]]) {
-            prefix[i] = i
-        } else {
-            prefix[i] = prefix[i+1]
+    const nums = String(num).split("")
+    const map = new Map();
+
+    for(let i=0; i<nums.length; i++) {
+        map.set(+nums[i], i)
+    }
+    console.log("map: ", map)
+    for(let i=0; i<nums.length; i++) {
+        for(j=9; j>nums[i]; j--) {
+            if(map.has(j) && map.get(j) > i) {
+                // console.log("here...: ", i, " : ", j, " : ", map.get(j))
+                const temp = nums[i]
+                nums[i] = j
+                nums[map.get(j)] = temp
+                return +nums.join("")
+            }
         }
     }
-    for(let i=0; i<numArr.length; i++) {
-        if(numArr[i] < numArr[prefix[i]]) {
-            const temp = numArr[i]
-            numArr[i] = numArr[prefix[i]]
-            numArr[prefix[i]] = temp
-            break
-        }
-    }
-    return +numArr.join("")
+    return num
 };
