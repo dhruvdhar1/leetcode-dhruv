@@ -4,12 +4,12 @@
  */
 
 var accountsMerge = function(accounts) {
-    const parent = accounts.map((_, i) => i); //[0,1,2,3,4,5,6]
+    const parent = accounts.map((_, i) => i);
     const union = (n1, n2) => {
         const p1 = find(n1)
         const p2 = find(n2)
         if(p1 !== p2) {
-            parent[p1] = p2
+            parent[parent[p1]] = parent[p2]
         }
     }
     const find = (n1) => {
