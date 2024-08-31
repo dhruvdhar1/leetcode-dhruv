@@ -14,7 +14,7 @@ var accountsMerge = function(accounts) {
     }
     const find = (n1) => {
         if(parent[n1] !== n1) {
-            return find(parent[n1])
+            return find(parent[parent[n1]])
         }
         return n1
     }
