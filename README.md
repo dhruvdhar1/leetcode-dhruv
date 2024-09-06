@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1988-minimize-maximum-pair-sum-in-array) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 ## Sorting
@@ -389,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -428,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Randomized
 |  |
 | ------- |
