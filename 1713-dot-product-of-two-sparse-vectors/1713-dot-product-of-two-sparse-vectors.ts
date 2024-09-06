@@ -1,29 +1,23 @@
 class SparseVector {
-    v: string = null
+    map = null
     constructor(nums: number[]) {
-		const stringified = String(nums)
-        this.v = stringified.slice(0, stringified.length)
+        this.map = new Map()
+        for(let i=0; i<nums.length; i++) {
+            if(nums[i] !== 0) {
+                this.map.set(i, nums[i])
+            }
+        }
     }
 
 	// Return the dotProduct of two sparse vectors
     dotProduct(vec: SparseVector): number {
-		let i=0, j=0
-        const v1 = this.v
-        const v2 = vec.v
+		const v1 = this.map
+        const v2 = vec.map
         let res = 0
-        while(i < v1.length && j < v2.length) {
-            let num1 = 0, num2 = 0
-            while(i < v1.length && v1.charAt(i) !== ',') {
-                num1 = num1*10 + parseInt(v1[i])
-                i++
+        for(const [key, val] of v1) {
+            if(v2.has(key)) {
+                res += val * v2.get(key)
             }
-            while(j < v2.length && v2.charAt(j) !== ',') {
-                num2 = num2*10 + parseInt(v2[j])
-                j++
-            }
-            res += num1*num2
-            i++
-            j++
         }
         return res
     }
