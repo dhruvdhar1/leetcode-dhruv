@@ -4,11 +4,6 @@
  * @return {string}
  */
 var customSortString = function(order, s) {
-    const pq = new MinPriorityQueue({priority: obj => obj[1]})
-    for(let i=0; i<order.length; i++) {
-        const ch = order.charAt(i)
-        pq.enqueue([ch, i])
-    }
     const smap = new Map()
     for(let i=0; i<s.length; i++) {
         const ch = s.charAt(i)
@@ -16,9 +11,8 @@ var customSortString = function(order, s) {
         smap.set(ch, f+1)
     }
     const res = []
-    while(pq.size() > 0) {
-        const pop = pq.dequeue()
-        const ch = pop.element[0]
+    for(let i=0; i<order.length; i++) {
+        const ch = order[i]
         if(smap.has(ch)) {
             const f = smap.get(ch)
             for(let i=0; i<f; i++) {
