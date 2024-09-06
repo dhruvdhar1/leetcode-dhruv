@@ -9,7 +9,6 @@ var customSortString = function(order, s) {
         const ch = order.charAt(i)
         pq.enqueue([ch, i])
     }
-    // console.log("pq: ", pq.toArray())
     const smap = new Map()
     for(let i=0; i<s.length; i++) {
         const ch = s.charAt(i)
@@ -20,8 +19,6 @@ var customSortString = function(order, s) {
     while(pq.size() > 0) {
         const pop = pq.dequeue()
         const ch = pop.element[0]
-        // console.log("pop: ", ch)
-        // console.log("has: ", smap.get(ch))
         if(smap.has(ch)) {
             const f = smap.get(ch)
             for(let i=0; i<f; i++) {
@@ -35,6 +32,5 @@ var customSortString = function(order, s) {
                 res.push(key)
         }
     }
-    // console.log("map: ", smap)
     return res.join('')
 };
