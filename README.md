@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0525-contiguous-array) |
 | [0554-brick-wall](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0554-brick-wall) |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
 | [0636-exclusive-time-of-functions](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0636-exclusive-time-of-functions) |
@@ -393,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0525-contiguous-array) |
 | [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
 | [0554-brick-wall](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0554-brick-wall) |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
@@ -422,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0560-subarray-sum-equals-k) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
 ## Counting Sort
