@@ -20,11 +20,11 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
     if(len === n) {
         return head.next
     }
-    console.log("len: ", len)
+    // console.log("len: ", len)
     curr = head
     let i=0
     while(curr != null && (len-i !== n+1)) {
-        console.log("curr: ", curr)
+        // console.log("curr: ", curr)
         curr = curr.next
         i++
     }
