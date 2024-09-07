@@ -379,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -436,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -542,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0138-copy-list-with-random-pointer) |
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
 ## Backtracking
 |  |
@@ -572,4 +575,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
