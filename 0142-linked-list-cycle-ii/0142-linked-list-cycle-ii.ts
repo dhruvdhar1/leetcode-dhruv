@@ -25,16 +25,9 @@ function detectCycle(head: ListNode | null): ListNode | null {
     if(!cycle) {
         return null
     }
-    const map = new Map([[head, 1]])
-    let curr = head
-    while(curr.next != null) {
-        const next = curr.next
-        if(map.has(next)) {
-            // console.log("nnn: ", next.val)
-            return next
-        } else {
-            map.set(next, 1)
-        }
-        curr = curr.next
+    while(head != slow) {
+        head = head.next
+        slow = slow.next
     }
+    return head
 };
