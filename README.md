@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0142-linked-list-cycle-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0138-copy-list-with-random-pointer) |
+| [0142-linked-list-cycle-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
@@ -555,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0138-copy-list-with-random-pointer) |
+| [0142-linked-list-cycle-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
