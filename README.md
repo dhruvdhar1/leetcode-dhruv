@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
 | [0636-exclusive-time-of-functions](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0636-exclusive-time-of-functions) |
+| [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0408-valid-word-abbreviation) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0647-palindromic-substrings) |
+| [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0807-custom-sort-string) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
@@ -316,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
+| [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
@@ -382,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [2725-mice-and-cheese](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2725-mice-and-cheese) |
 ## Hash Table
@@ -470,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0424-longest-repeating-character-replacement) |
+| [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 ## Recursion
 |  |
