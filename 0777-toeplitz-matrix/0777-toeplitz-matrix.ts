@@ -3,12 +3,10 @@ function isToeplitzMatrix(matrix: number[][]): boolean {
         for(let j=0; j<matrix[0].length; j++) {
             let m = i, n=j
             const val = matrix[m][n]
-            while(m < matrix.length && n<matrix[0].length) {
-                if(val !== matrix[m][n]) {
+            if(m+1 < matrix.length && n+1 <matrix[0].length) {
+                if(val !== matrix[m+1][n+1]) {
                     return false
                 }
-                m++
-                n++
             }
 
         }
