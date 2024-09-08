@@ -1,11 +1,7 @@
 function findPeakElement(nums: number[]): number {
-    if(nums.length === 1) {
+    if(nums.length === 1 || nums[0] > nums[1]) {
         return 0
-    }
-    if(nums[0] > nums[1]) {
-        return 0
-    }
-    if(nums[nums.length-1] > nums[nums.length-2]) {
+    } else if(nums[nums.length-1] > nums[nums.length-2]) {
         return nums.length-1
     }
     let l = 1, r = nums.length-2
