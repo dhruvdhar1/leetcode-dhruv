@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
+| [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
+| [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
 | [0523-continuous-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0670-maximum-swap) |
+| [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
@@ -457,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0560-subarray-sum-equals-k) |
+| [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
 ## Counting Sort
@@ -482,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
+| [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 ## Sliding Window
 |  |
 | ------- |
