@@ -1,22 +1,21 @@
 function maximumSwap(num: number): number {
+    const map = new Map()
     const nums = String(num).split('')
-    const greater = new Array(nums.length)
-    greater[greater.length-1] = greater.length-1
 
-    for(let i = nums.length-2; i>=0; i--) {
-        if(nums[i] <= nums[greater[i+1]]) {
-            greater[i] = greater[i+1]
-        } else {
-            greater[i] = i
-        }
+    for(let i=0; i<nums.length; i++) {
+        map.set(parseInt(nums[i]), i)
     }
 
-    for(let i=0; i<greater.length; i++) {
-        if(i != greater[i] && nums[i] != nums[greater[i]]) {
-            const temp = nums[i]
-            nums[i] = nums[greater[i]]
-            nums[greater[i]] = temp
-            break;
+    for(let i=0; i<nums.length; i++) {
+        const num = parseInt(nums[i])
+        for(let j=9; j>num; j--) {
+            if(map.has(j) && map.get(j) > i) {
+                const ind = map.get(j)
+                const temp = nums[i]
+                nums[i] = nums[ind]
+                nums[ind] = temp
+                return parseInt(nums.join(''))
+            }
         }
     }
     return parseInt(nums.join(''))
