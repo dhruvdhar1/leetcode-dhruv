@@ -20,6 +20,5 @@ var addStrings = function(num1, num2) {
     if(carry) {
         res = carry + res
     }
-    // return arr.reverse().join('')
     return res.toString()
 };
