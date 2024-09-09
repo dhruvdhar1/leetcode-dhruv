@@ -26,14 +26,11 @@ var insert = function(head, insertVal) {
 
     let curr = head
     while(curr.next != head) {
-        console.log("node: ", curr.val, " : ", head.val)
         if(insertVal >= curr.val && insertVal <= curr.next.val) {
-            console.log("hello")
             insertHelper(curr, curr.next, insertVal)
             return head
         } else if(curr.val > curr.next.val) {
             if(insertVal >= curr.val || insertVal <= curr.next.val) {
-                console.log("hello2")
                 insertHelper(curr, curr.next, insertVal)
                 return head
             }
