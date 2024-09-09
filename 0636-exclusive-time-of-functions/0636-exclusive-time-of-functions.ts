@@ -27,7 +27,6 @@ function exclusiveTime(n: number, logs: string[]): number[] {
         }
 
     }
-    console.log(stack)
     return res
 
 };
