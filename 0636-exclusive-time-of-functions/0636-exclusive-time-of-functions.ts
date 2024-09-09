@@ -9,21 +9,18 @@ function exclusiveTime(n: number, logs: string[]): number[] {
         const ts = parseInt(tokens[2])
 
         if(type === "start") {
-            prev_time++
-            if(stack.length === 0) {
-                stack.push(id)
-            } else {
+            if(stack.length > 0) {
                 const diff = ts - prev_time
                 const last_process = stack[stack.length-1]
                 res[last_process] += diff
-                stack.push(id)
             }
+            stack.push(id)
             prev_time = ts
         } else {
             stack.pop()
             const runtime = ts - prev_time + 1
             res[id] += runtime
-            prev_time = ts
+            prev_time = ts+1
         }
 
     }
