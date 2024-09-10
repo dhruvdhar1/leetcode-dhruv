@@ -13,20 +13,20 @@ var shortestPathBinaryMatrix = function(grid) {
         const y = pop[1]
         const len = pop[2]
         const key = `${x}:${y}`
-        if(x < 0 || y < 0 || x >= grid.length || y >= grid.length || grid[x][y] === 1 || visited.has(key)) {
+        if(x < 0 || y < 0 || x >= grid.length || y >= grid.length || grid[x][y] === 1) {
             continue
         }
         if(x === grid.length-1 && y === grid.length-1 && grid[x][y] === 0) {
             return len
         }
-        q.push([x+1, y, len+1])
-        q.push([x, y+1, len+1])
-        q.push([x+1, y+1, len+1])
-        q.push([x+1, y-1, len+1])
-        q.push([x, y-1, len+1])
-        q.push([x-1, y, len+1])
-        q.push([x-1, y-1, len+1])
-        q.push([x-1, y+1, len+1])
+        !visited.has(key) && q.push([x+1, y, len+1])
+        !visited.has(key) && q.push([x, y+1, len+1])
+        !visited.has(key) && q.push([x+1, y+1, len+1])
+        !visited.has(key) && q.push([x+1, y-1, len+1])
+        !visited.has(key) && q.push([x, y-1, len+1])
+        !visited.has(key) && q.push([x-1, y, len+1])
+        !visited.has(key) && q.push([x-1, y-1, len+1])
+        !visited.has(key) && q.push([x-1, y+1, len+1])
         visited.add(key)
     }
     return -1
