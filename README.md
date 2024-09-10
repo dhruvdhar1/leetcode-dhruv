@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -530,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0498-diagonal-traverse) |
 | [0777-toeplitz-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0777-toeplitz-matrix) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Bucket Sort
 |  |
@@ -579,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0998-check-completeness-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Union Find
 |  |
