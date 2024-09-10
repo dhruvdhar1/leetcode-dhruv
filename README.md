@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [0904-leaf-similar-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
@@ -413,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
+| [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
 | [2725-mice-and-cheese](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2725-mice-and-cheese) |
@@ -580,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -598,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
 ## Topological Sort
 |  |
@@ -653,5 +657,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
