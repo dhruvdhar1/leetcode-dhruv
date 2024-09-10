@@ -26,24 +26,20 @@ var maxProbability = function(n, edges, succProb, start_node, end_node) {
         adj.get(d).push([s, prob])
     }
 
-    // console.log("AAAA: ", adj)
     const pq = new MaxPriorityQueue({ priority: node => node[1]})
     pq.enqueue([start_node, 1])
 
     while(pq.size() > 0) {
         const pop = pq.dequeue().element
-        // console.log("pop: ", pop)
         const node = pop[0]
         const prob = pop[1]
         if(node === end_node) {
             return prob
         }
         const neigh = adj.get(node) || []
-        // console.log("nnn: ", node, " : ", visited)
         for(const n of neigh) {
             if(!visited.has(n[0])) {
                 pq.enqueue([n[0], (prob*n[1])])
-                // console.log("new q: ", pq.toArray())
             }
         }
         visited.add(node)
