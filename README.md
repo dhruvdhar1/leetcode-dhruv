@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
+| [1028-interval-list-intersections](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
+| [1028-interval-list-intersections](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1028-interval-list-intersections) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1894-merge-strings-alternately](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1894-merge-strings-alternately) |
