@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0777-toeplitz-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0777-toeplitz-matrix) |
 | [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
+| [0852-friends-of-appropriate-ages](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0852-friends-of-appropriate-ages) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
+| [0852-friends-of-appropriate-ages](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0852-friends-of-appropriate-ages) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [1028-interval-list-intersections](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1028-interval-list-intersections) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0807-custom-sort-string) |
+| [0852-friends-of-appropriate-ages](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0852-friends-of-appropriate-ages) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
@@ -362,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0333-largest-bst-subtree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0333-largest-bst-subtree) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
+| [0852-friends-of-appropriate-ages](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0852-friends-of-appropriate-ages) |
 | [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
