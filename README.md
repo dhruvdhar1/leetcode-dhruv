@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0067-add-binary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0076-minimum-window-substring) |
@@ -419,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0062-unique-paths) |
+| [0067-add-binary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
@@ -675,12 +677,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0067-add-binary) |
 | [0415-add-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0415-add-strings) |
 | [0498-diagonal-traverse](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0498-diagonal-traverse) |
 | [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0067-add-binary) |
 | [0461-hamming-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0461-hamming-distance) |
 ## Reservoir Sampling
 |  |
