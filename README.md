@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
+| [1909-buildings-with-an-ocean-view](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1909-buildings-with-an-ocean-view) |
 | [1961-maximum-ice-cream-bars](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2019-product-of-two-run-length-encoded-arrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2019-product-of-two-run-length-encoded-arrays) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1909-buildings-with-an-ocean-view](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1909-buildings-with-an-ocean-view) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -682,4 +684,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1909-buildings-with-an-ocean-view](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1909-buildings-with-an-ocean-view) |
 <!---LeetCode Topics End-->
