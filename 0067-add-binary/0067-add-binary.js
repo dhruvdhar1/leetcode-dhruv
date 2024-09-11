@@ -15,20 +15,8 @@ var addBinary = function(a, b) {
         const n1 = parseInt(a.charAt(i))
         const n2 = parseInt(b.charAt(i))
         const sum = n1 + n2 + carry
-        if(sum === 3) {
-            carry = 1
-            res = '1' + res
-        } else if(sum === 2) {
-            carry = 1
-            res = '0' + res
-        } else if(sum === 1) {
-            carry = 0
-            res = '1' + res
-        } 
-        else { 
-            carry = 0
-            res = '0' + res
-        }
+        res = String(Math.floor(sum%2)) + res
+        carry = Math.floor(sum/2)
     }
     if(carry) {
         res = '1' + res
