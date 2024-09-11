@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
+| [1646-kth-missing-positive-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1646-kth-missing-positive-number) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
+| [1646-kth-missing-positive-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1646-kth-missing-positive-number) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
 ## Binary Tree
 |  |
