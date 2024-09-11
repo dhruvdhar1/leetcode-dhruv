@@ -13,7 +13,7 @@
 var splitListToParts = function(head, k) {
     const arr = new Array(k).fill(null)
     if(head === null) return arr
-    if(k === 1) return [head]
+    // if(k === 1) return [head]
     let curr = head
     let next = curr.next
     let pos = 2
@@ -24,10 +24,8 @@ var splitListToParts = function(head, k) {
         curr = curr.next
     }
     curr = head
-    let flag = len%k === 0 ? false : true
     let partSize = Math.floor(len/k)
     let partInd = len%k
-    console.log("part ind: ", partInd, " : ", partSize)
     while(next != null) {
         let offset = partInd > 0 ? 1 : 0
         if(pos > partSize + offset) {
@@ -38,10 +36,6 @@ var splitListToParts = function(head, k) {
             head = next
             next = next.next
             partInd--
-            // if(flag) {
-            //     partSize = Math.ceil((len-1)/k)
-            //     flag = false
-            // }
         } else {
             pos++
             curr = curr.next
