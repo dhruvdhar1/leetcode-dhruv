@@ -4,17 +4,19 @@
  * @return {number}
  */
 var findKthPositive = function(arr, k) {
-    const max = arr[arr.length-1]
-    const set = new Set(arr)
-    for(let i=1; i<=max; i++) {
-        if(!set.has(i)) {
-            k--
+    let prev = 0
+    let diff = 0
+    let l = 0
+    while(l < arr.length) {
+        if(arr[l] - prev > 1) {
+            const d = arr[l] - prev - 1
+            diff += d
         }
-        if(k === 0) {
-            return i
-        }
+        prev = arr[l++]
+        if(diff >= k) break
     }
-    if(k > 0) {
-        return max+k
+    if(diff < k) {
+        return arr[arr.length-1] + (k-diff)
     }
+    return prev - (diff-k+1)
 };
