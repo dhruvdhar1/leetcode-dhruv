@@ -12,6 +12,5 @@ var findBuildings = function(heights) {
         }
     }
     res.reverse()
-    console.log("res: ", res)
     return res
 };
