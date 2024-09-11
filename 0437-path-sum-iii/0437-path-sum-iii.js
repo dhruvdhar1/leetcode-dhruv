@@ -20,9 +20,7 @@ var pathSum = function(root, targetSum) {
 
         const currSum = sum + node.val
         const diff = currSum - targetSum
-        console.log("diff: ", diff, " : ", currSum)
         if(map.has(diff)) {
-            console.log("cnt: ", map.get(diff))
             count += map.get(diff) || 0
         }
         if(map.has(currSum)) {
