@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1988-minimize-maximum-pair-sum-in-array) |
+| [2019-product-of-two-run-length-encoded-arrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2019-product-of-two-run-length-encoded-arrays) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2339-k-divisible-elements-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2339-k-divisible-elements-subarrays) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1894-merge-strings-alternately](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1894-merge-strings-alternately) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1988-minimize-maximum-pair-sum-in-array) |
+| [2019-product-of-two-run-length-encoded-arrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2019-product-of-two-run-length-encoded-arrays) |
 ## Sorting
 |  |
 | ------- |
