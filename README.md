@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
+| [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
 | [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
+| [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
 ## Binary Tree
@@ -484,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
+| [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
 ## Counting Sort
@@ -518,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0424-longest-repeating-character-replacement) |
 | [0658-find-k-closest-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0658-find-k-closest-elements) |
+| [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 ## Recursion
 |  |
