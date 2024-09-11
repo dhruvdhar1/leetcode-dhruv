@@ -13,7 +13,6 @@
 var splitListToParts = function(head, k) {
     const arr = new Array(k).fill(null)
     if(head === null) return arr
-    // if(k === 1) return [head]
     let curr = head
     let next = curr.next
     let pos = 2
