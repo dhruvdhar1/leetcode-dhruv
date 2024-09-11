@@ -6,7 +6,6 @@
 var intervalIntersection = function(firstList, secondList) {
     const intervals = [...firstList, ...secondList]
     intervals.sort((a,b)  => a[0] === b[0] ? a[1] - b[1] : a[0] - b[0]) //todo check for equality
-    console.log("intr: ", intervals)
     const res = []
     for(let i=1; i<intervals.length; i++) {
         const intr1 = intervals[i-1]
