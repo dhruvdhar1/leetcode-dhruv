@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0071-simplify-path](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0071-simplify-path) |
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
+| [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
 | [0227-basic-calculator-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0636-exclusive-time-of-functions) |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0113-path-sum-ii) |
+| [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0098-validate-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0162-find-peak-element) |
+| [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0113-path-sum-ii) |
+| [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -510,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
+| [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
@@ -693,4 +698,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1909-buildings-with-an-ocean-view](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1909-buildings-with-an-ocean-view) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
