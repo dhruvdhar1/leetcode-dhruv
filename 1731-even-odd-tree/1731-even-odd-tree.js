@@ -10,9 +10,9 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
- 
+
 var isEvenOddTree = function(root) {
-    const q = [root] //dequeue
+    let q = [root] //dequeue
     let level = 0
 
     while(q.length > 0) {
@@ -31,7 +31,7 @@ var isEvenOddTree = function(root) {
                 aux.push(pop.right)
             }
         }
-        q.push(...aux)
+        q = aux
         level++
     }
     return true
