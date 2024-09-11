@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
+| [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0377-combination-sum-iv) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
@@ -500,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
+| [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -668,4 +670,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
+## Queue
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
 <!---LeetCode Topics End-->
