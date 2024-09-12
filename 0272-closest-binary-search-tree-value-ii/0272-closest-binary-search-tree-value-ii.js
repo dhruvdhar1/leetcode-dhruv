@@ -13,16 +13,16 @@
  * @return {number[]}
  */
 var closestKValues = function(root, target, k) {
-    const q = []
+    const q = new Queue()
     function dfs(node) {
         if(node == null) return
         dfs(node.left)
-        if(q.length < k) {
-            q.push(node.val)
+        if(q.size() < k) {
+            q.enqueue(node.val)
         } else {
-            if(Math.abs(node.val - target) < Math.abs(q[0] - target)) {
-                q.shift()
-                q.push(node.val)
+            if(Math.abs(node.val - target) < Math.abs(q.front() - target)) {
+                q.dequeue()
+                q.enqueue(node.val)
             } else {
                 return
             }
@@ -30,5 +30,5 @@ var closestKValues = function(root, target, k) {
         dfs(node.right)
     }
     dfs(root)
-    return q
+    return q.toArray()
 };
