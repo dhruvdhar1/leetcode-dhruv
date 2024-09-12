@@ -49,7 +49,6 @@ var multiply = function(num1, num2) {
             break
         }
     }
-    console.log("llll: ", leadingzInd)
     return str.slice(leadingzInd, str.length)
 };
 
