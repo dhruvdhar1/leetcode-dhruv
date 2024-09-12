@@ -21,9 +21,11 @@ var closestValue = function(root, target) {
         } else if(Math.abs(node.val - target) == diff && node.val < res) {
             res = node.val
         }
-
-        dfs(node.left)
-        dfs(node.right)
+        if(node.val > target) {
+            dfs(node.left)
+        } else {
+            dfs(node.right)
+        }
     }
     dfs(root)
     return res
