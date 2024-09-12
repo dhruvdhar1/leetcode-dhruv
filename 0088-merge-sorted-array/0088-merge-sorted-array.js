@@ -15,7 +15,6 @@ var merge = function(nums1, m, nums2, n) {
         r--
     }
     r = nums1.length-nums2.length-1
-    console.log("n1: ", nums1, " : ", r)
     l = 0
     let p = nums1.length-1
     while(l<nums2.length && r >= 0) {
