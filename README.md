@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
+| [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1046-max-consecutive-ones-iii) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0852-friends-of-appropriate-ages](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0852-friends-of-appropriate-ages) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
+| [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1028-interval-list-intersections) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
+| [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
