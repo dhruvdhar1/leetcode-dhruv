@@ -13,27 +13,22 @@
  * @return {number[]}
  */
 var closestKValues = function(root, target, k) {
-    const pq = new MaxPriorityQueue({ priority: el => el[1]})
+    const q = []
     function dfs(node) {
         if(node == null) return
-        const diff = Math.abs(node.val - target)
-        if(pq.size() < k) {
-            pq.enqueue([node.val, diff])
+        dfs(node.left)
+        if(q.length < k) {
+            q.push(node.val)
         } else {
-            const top = pq.front().element
-            if(diff < top[1]) {
-                pq.dequeue()
-                pq.enqueue([node.val, diff])
+            if(Math.abs(node.val - target) < Math.abs(q[0] - target)) {
+                q.shift()
+                q.push(node.val)
+            } else {
+                return
             }
         }
-        dfs(node.left)
         dfs(node.right)
     }
     dfs(root)
-    const res = []
-    while(pq.size() > 0) {
-        const pop = pq.dequeue().element
-        res.push(pop[0])
-    }
-    return res
+    return q
 };
