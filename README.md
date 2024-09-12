@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0283-move-zeroes) |
+| [0286-walls-and-gates](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0286-walls-and-gates) |
 | [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
 | [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
@@ -585,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0221-maximal-square) |
+| [0286-walls-and-gates](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0498-diagonal-traverse) |
 | [0777-toeplitz-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0777-toeplitz-matrix) |
@@ -627,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
+| [0286-walls-and-gates](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0286-walls-and-gates) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0339-nested-list-weight-sum) |
