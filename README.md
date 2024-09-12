@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0135-candy) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0043-multiply-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0043-multiply-strings) |
+| [0044-wildcard-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0044-wildcard-matching) |
 | [0067-add-binary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
+| [0044-wildcard-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0044-wildcard-matching) |
 | [0062-unique-paths](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
@@ -586,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
+| [0044-wildcard-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
