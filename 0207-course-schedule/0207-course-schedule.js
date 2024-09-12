@@ -14,7 +14,7 @@ function isCycle(adj, node, visited) {
         if(cycle) return true
     }
     visited.delete(node)
-    adj.set(node, [])
+    adj.set(node, []) //optimization
     return false
 }
 var canFinish = function(numCourses, prerequisites) {
