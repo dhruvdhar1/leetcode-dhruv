@@ -22,8 +22,7 @@ var lowestCommonAncestor = function(root, p, q) {
 
         if(l === p || r === p || node === p) {
             pFound = true
-        }
-        if(l === q || r === q || node === q) {
+        }else if(l === q || r === q || node === q) {
             qFound = true
         }
 
