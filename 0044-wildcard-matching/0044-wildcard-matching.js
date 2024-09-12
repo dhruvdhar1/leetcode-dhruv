@@ -3,7 +3,8 @@
  * @param {string} p
  * @return {boolean}
  */
-
+// TC: O(m.n)
+// SC: O(m.n)
 function backtrack(s, p, i, j, dp) {
     if(i > s.length && j > p.length) {
         return true
@@ -11,8 +12,7 @@ function backtrack(s, p, i, j, dp) {
     if(i > s.length || j > p.length) {
         return false
     }
-    const key = `${i}:${j}`
-    if(dp.has(key)) return dp.get(key)
+    if(dp[i][j] !== null) return dp[i][j]
     const ch1 = s.charAt(i)
     const ch2 = p.charAt(j)
 
@@ -28,10 +28,13 @@ function backtrack(s, p, i, j, dp) {
             res = false
         }
     }
-    dp.set(key, res)
+    dp[i][j] = res
     return res
 }
 var isMatch = function(s, p) {
-    const dp = new Map()
+    const dp = new Array(s.length+1)
+    for(let i=0; i<dp.length; i++) {
+        dp[i] = new Array(p.length+1).fill(null)
+    }
     return backtrack(s, p, 0, 0, dp)
 };
