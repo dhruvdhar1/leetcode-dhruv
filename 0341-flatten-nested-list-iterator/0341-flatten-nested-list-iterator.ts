@@ -41,7 +41,6 @@ class NestedIterator {
     flat = []
     constructor(nestedList: NestedInteger[]) {
 		this.flatten(nestedList, this.flat)
-        console.log("res: ", this.flat)
     }
 
     flatten(nestedList, list) {
