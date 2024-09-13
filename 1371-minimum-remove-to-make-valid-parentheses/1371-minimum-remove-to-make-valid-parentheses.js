@@ -3,29 +3,23 @@
  * @return {string}
  */
 var minRemoveToMakeValid = function(s) {
-    const stk = []
     const arr = s.split('')
-    // console.log(arr)
+    const stack = []
     for(let i=0; i<arr.length; i++) {
         const ch = arr[i]
         if(ch === '(') {
-            stk.push(i)
+            stack.push(i)
         } else if(ch === ')') {
-            if(stk.length > 0) {
-                stk.pop()
+            if(stack.length > 0) {
+                stack.pop()
             } else {
                 arr[i] = ''
             }
         }
     }
-    while(stk.length > 0) {
-        const pop = stk.pop()
-        arr[pop] = ''
+    while(stack.length > 0) {
+        const ind = stack.pop()
+        arr[ind] = ''
     }
-    return arr.join("")
+    return arr.join('')
 };
-
-/**
-    TC: O(len(s))
-    SC: O(len(s))
-*/
