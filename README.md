@@ -473,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0227-basic-calculator-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0227-basic-calculator-ii) |
+| [0231-power-of-two](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0231-power-of-two) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0398-random-pick-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0398-random-pick-index) |
 | [0415-add-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0415-add-strings) |
@@ -611,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0231-power-of-two) |
 | [0394-decode-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0394-decode-string) |
 ## String Matching
 |  |
@@ -749,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0067-add-binary) |
 | [0090-subsets-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0090-subsets-ii) |
+| [0231-power-of-two](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0231-power-of-two) |
 | [0461-hamming-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0461-hamming-distance) |
 ## Reservoir Sampling
 |  |
