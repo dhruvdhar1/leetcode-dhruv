@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0135-candy) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0010-regular-expression-matching) |
 | [0044-wildcard-matching](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0072-edit-distance) |
