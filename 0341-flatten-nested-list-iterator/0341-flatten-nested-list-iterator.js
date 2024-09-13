@@ -30,11 +30,11 @@
  */
 
 class NestedIterator {
-    flat = null
+    flat = []
+    pointer = 0
     constructor(nestedList) {
-        const list = []
-		this.flatten(nestedList, list)
-        this.flat = new Queue(list)
+		this.flatten(nestedList, this.flat)
+        // this.flat = new Queue(list)
     }
 
     flatten(nestedList, list) {
@@ -48,11 +48,11 @@ class NestedIterator {
     }
 
     hasNext() {
-		return this.flat.size() > 0
+		return this.pointer < this.flat.length
     }
 
 	next() {
-		const pop = this.flat.dequeue()
+		const pop = this.flat[this.pointer++]
         return pop.getInteger()
     }
 }
