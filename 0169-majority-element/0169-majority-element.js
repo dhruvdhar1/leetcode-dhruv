@@ -3,18 +3,19 @@
  * @return {number}
  */
 var majorityElement = function(nums) {
-    const map = new Map()
-    for(const num of nums) {
-        if(!map.has(num)) {
-            map.set(num, 0)
+    let res = nums[0]
+    let count = 1
+    for(let i=1; i<nums.length; i++) {
+        if(nums[i] === res) {
+            count++
+        } else {
+            count--
         }
-        const f = map.get(num)
-        map.set(num, f+1)
-    }
 
-    for(const [key, val] of map) {
-        if(val > Number.parseInt(nums.length/2)) {
-            return key
+        if(count < 0) {
+            res = nums[i]
+            count = 1
         }
     }
+    return res
 };
