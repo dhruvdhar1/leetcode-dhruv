@@ -304,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0234-palindrome-linked-list) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0341-flatten-nested-list-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0636-exclusive-time-of-functions) |
 | [0678-valid-parenthesis-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0678-valid-parenthesis-string) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0333-largest-bst-subtree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0333-largest-bst-subtree) |
+| [0341-flatten-nested-list-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0341-flatten-nested-list-iterator) |
 | [0404-sum-of-left-leaves](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
@@ -384,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0333-largest-bst-subtree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0333-largest-bst-subtree) |
 | [0339-nested-list-weight-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0339-nested-list-weight-sum) |
+| [0341-flatten-nested-list-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0341-flatten-nested-list-iterator) |
 | [0404-sum-of-left-leaves](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0404-sum-of-left-leaves) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0437-path-sum-iii) |
@@ -597,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0341-flatten-nested-list-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0535-encode-and-decode-tinyurl) |
@@ -794,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0341-flatten-nested-list-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0346-moving-average-from-data-stream) |
 ## Data Stream
 |  |
@@ -807,4 +812,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
