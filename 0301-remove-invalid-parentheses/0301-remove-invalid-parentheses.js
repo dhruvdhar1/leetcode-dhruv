@@ -20,7 +20,7 @@ function backtrack(s, curr, ind, open, close, res) {
         backtrack(s, `${curr})`, ind+1, open, close+1, res)
     } else {
         backtrack(s, `${curr}${ch}`, ind+1, open, close, res)
-        return
+        // return
     }
     backtrack(s, `${curr}`, ind+1, open, close, res)
 }
