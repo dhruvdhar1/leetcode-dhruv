@@ -3,17 +3,17 @@
  * @return {number}
  */
 var minAddToMakeValid = function(s) {
-    const stack = []
+    let open = 0, close = 0
     for(const ch of s) {
         if(ch === '(') {
-            stack.push(ch)
+            open++
         } else {
-            if(stack.length > 0 && stack[stack.length-1] === '(') {
-                stack.pop()
+            if(open > 0) {
+                open--
             } else {
-                stack.push(ch)
+                close++
             }
         }
     }
-    return stack.length
+    return open+close
 };
