@@ -3,22 +3,11 @@
  * @param {number[][]} prerequisites
  * @return {number[]}
  */
-function dfs(root, adj, res, visited) {
-    if(visited.has(root) && visited.get(root) === -1) return true
-    if(visited.has(root)) return false
 
-    visited.set(root, -1)
-    const neigh = adj.get(root) || []
-    for(const n of neigh) {
-        const cycle = dfs(n, adj, res, visited)
-        if(cycle) return true
-    }
-    res.push(root)
-    visited.set(root, 1)
-}
 var findOrder = function(numCourses, prerequisites) {
     const res = []
     const adj = new Map()
+    const indegree = new Array(numCourses).fill(0)
     for(const prereq of prerequisites) {
         const c1 = prereq[0]
         const c2 = prereq[1]
@@ -29,17 +18,26 @@ var findOrder = function(numCourses, prerequisites) {
         if(!adj.has(c2)) {
             adj.set(c2, [])
         }
-        adj.get(c1).push(c2)
+        adj.get(c2).push(c1)
+        indegree[c1]++
     }
-    const visited = new Map()
-    for(const [key, val] of adj) {
-        const cycle = dfs(key, adj, res, visited)
-        if(cycle) return []
-    }
-    for(let i=0; i<numCourses; i++) {
-        if(!visited.has(i)) {
-            res.push(i)
+    const q = new Queue()
+    for(let i=0; i<indegree.length; i++) {
+        if(indegree[i] === 0) {
+            q.enqueue(i)
         }
     }
-    return res
+    while(q.size() > 0) {
+        const pop = q.dequeue()
+        res.push(pop)
+        const neigh = adj.get(pop) || []
+        for(const n of neigh) {
+            indegree[n]--
+            if(indegree[n] === 0) {
+                q.enqueue(n)
+            }
+        }
+    }
+    // res.reverse()
+    return res.length === numCourses ? res : []
 };
