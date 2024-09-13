@@ -3,20 +3,19 @@
  * @return {number[][]}
  */
 var merge = function(intervals) {
-    intervals.sort((i1, i2) => i1[0] - i2[0])
+    intervals.sort((a, b) => a[0] - b[0])
     const res = [intervals[0]]
-    // console.log("int: ",intervals)
     for(let i=1; i<intervals.length; i++) {
+        const currInt = intervals[i]
         const last = res[res.length-1]
-        const curr = intervals[i]
-        if(last[1] >= curr[0]) {
-            const newInt = [ Math.min(last[0], curr[0]), Math.max(last[1], curr[1]) ]
-            res.pop()
-            res.push(newInt)
+        if(currInt[0] <= last[1]) {
+            const min = Math.min(currInt[0], last[0])
+            const max = Math.max(currInt[1], last[1])
+            res[res.length-1][0] = min
+            res[res.length-1][1] = max
         } else {
-            res.push(curr)
+            res.push(currInt)
         }
     }
-    
     return res
 };
