@@ -10,26 +10,21 @@
  * @param {TreeNode} root
  * @return {number}
  */
-function dfs(root, path, nums) {
-    if(null === root) return
-    if(root.right === null && root.left === null) {
-        // const num = parseInt(`${path}${root.val}`)
 
-        nums.push(path*10+root.val)
-        return
-    }
-    
-    dfs(root.left, (path*10+root.val), nums)
-    dfs(root.right, (path*10+root.val), nums)
-
-}
 var sumNumbers = function(root) {
-    const nums = []
-    dfs(root, 0, nums)
-    // console.log(nums)
-    const sum = nums.reduce((acc, curr) => {
-        acc += curr
-        return acc
-    }, 0)
-    return sum
+    let total = 0
+    function dfs(node, path) {
+        if(null === node) return
+        if(node.right === null && node.left === null) {
+            total += path*10+node.val
+            return
+        }
+        dfs(node.left, (path*10+node.val))
+        dfs(node.right, (path*10+node.val))
+
+    }
+
+    dfs(root, 0)
+    return total
+    
 };
