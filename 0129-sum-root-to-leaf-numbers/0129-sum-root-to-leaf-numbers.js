@@ -15,13 +15,13 @@ var sumNumbers = function(root) {
     let total = 0
     function dfs(node, path) {
         if(null === node) return
+        let sum = path*10 + node.val
         if(node.right === null && node.left === null) {
-            total += path*10+node.val
+            total += sum
             return
         }
-        dfs(node.left, (path*10+node.val))
-        dfs(node.right, (path*10+node.val))
-
+        dfs(node.left, sum)
+        dfs(node.right, sum)
     }
 
     dfs(root, 0)
