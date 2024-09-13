@@ -6,7 +6,7 @@ function backtrack(nums, ind, curr, res) {
     // console.log("curr: ", curr)
     if(ind >= nums.length) {
         const temp = [...curr]
-        temp.sort((a, b) => a-b)
+        // temp.sort((a, b) => a-b)
         const str = temp.join(':')
         res.add(str)
         return
@@ -18,6 +18,7 @@ function backtrack(nums, ind, curr, res) {
 }
 var subsetsWithDup = function(nums) {
     const set = new Set()
+    nums.sort((a,b) => a-b)
     backtrack(nums, 0, [], set)
     const res = []
     // console.log(set)
