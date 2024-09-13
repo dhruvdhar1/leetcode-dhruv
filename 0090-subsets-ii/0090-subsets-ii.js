@@ -3,29 +3,30 @@
  * @return {number[][]}
  */
 function backtrack(nums, ind, curr, res) {
-    // console.log("curr: ", curr)
     if(ind >= nums.length) {
-        // const temp = [...curr]
-        const str = curr.join(':')
-        res.add(str)
+        res.push(curr)
         return
     }
     backtrack(nums, ind+1, [...curr, nums[ind]], res)
-    backtrack(nums, ind+1, [...curr], res)
+    let k = 0
+    while(nums[ind+k] === nums[ind]) {
+        k++
+    }
+    backtrack(nums, ind+k, [...curr], res)
 }
 var subsetsWithDup = function(nums) {
-    const set = new Set()
+    const set = []
     nums.sort((a,b) => a-b)
     backtrack(nums, 0, [], set)
     const res = []
     // console.log(set)
-    for(const str of set) {
-        if(str === '') {
-            res.push([])
-        } else {
-            const arr = str.split(':')
-            res.push(arr)
-        }
-    }
-    return res
+    // for(const str of set) {
+    //     if(str === '') {
+    //         res.push([])
+    //     } else {
+    //         const arr = str.split(':')
+    //         res.push(arr)
+    //     }
+    // }
+    return set
 };
