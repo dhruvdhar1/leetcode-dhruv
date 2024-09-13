@@ -25,7 +25,6 @@ function dfs(root, adj, res, visited) {
     }
     res.push(root)
     visited.set(root, 1)
-    // adj.set(root, null)
 }
 var findOrder = function(numCourses, prerequisites) {
     const res = []
@@ -43,11 +42,6 @@ var findOrder = function(numCourses, prerequisites) {
         adj.get(c1).push(c2)
     }
     const visited = new Map()
-    // for(const [key, val] of adj) {
-    //     const cycle = hasCycle(key, adj, visited)
-    //     if(cycle) return []
-    // }
-    // visited = new Set()
     for(const [key, val] of adj) {
         const cycle = dfs(key, adj, res, visited)
         if(cycle) return []
