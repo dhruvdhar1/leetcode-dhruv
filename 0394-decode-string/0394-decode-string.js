@@ -13,10 +13,8 @@ var decodeString = function(s) {
             }
             stack.pop()
             while(stack[stack.length-1] >= '0' && stack[stack.length-1] <= '9') {
-                // console.log(stack[stack.length-1])
                 num = stack.pop() + num
             }
-            console.log(str, ' : ', num)
             const seq = str.repeat(parseInt(num))
             stack.push(seq)
         } else {
