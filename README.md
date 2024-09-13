@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -550,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0807-custom-sort-string) |
 | [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1149-intersection-of-three-sorted-arrays) |
@@ -706,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
