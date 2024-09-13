@@ -2,15 +2,28 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var canJump = function(nums) {
-    let currTarget = nums.length-1
-    let p = nums.length-1
 
-    while(p >= 0) {
-        if(p+nums[p] >= currTarget) {
-            currTarget = p
+ /**
+  0  1  2  3  4   
+ [2, 3, 1, 1, 4] .......
+     l  r 
+  0  1  2  3  4   
+ [3, 2, 1, 0, 4]
+l  .  .       r  
+    
+    0   1  2 
+    [2, 0, 0]
+    lr 
+  */
+var canJump = function(nums) {
+    if(nums.length === 1) return true
+    let r = nums.length-1, l = nums.length - 2
+    while(l >= 0) {
+        console.log("r: ", r)
+        if(nums[l] + l >= r) {
+            r = l
         }
-        p--
+        l--
     }
-    return currTarget === 0
+    return r <= 0
 };
