@@ -7,10 +7,10 @@ var mySqrt = function(x) {
     let l = 1, r = x
 
     while(l <= r) {
-        const mid = l + parseInt((r-l)/2)
+        const mid = l + Math.floor((r-l)/2)
         console.log(mid)
         if(mid * mid === x) return mid
-        if(mid * mid <= x) l = r+1
+        if(mid * mid <= x) l = mid+1
         else {
             r = mid-1
         }
