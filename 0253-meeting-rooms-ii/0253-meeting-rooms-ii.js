@@ -3,16 +3,21 @@
  * @return {number}
  */
 var minMeetingRooms = function(intervals) {
-    const pq = new MinPriorityQueue({priority: interval => interval[1]})
-    intervals.sort((a, b) => a[0] - b[0])
-    for(const interval of intervals) {
-        const front = pq.front()
-        if(front == null || interval[0] < front.element[1]) {
-            pq.enqueue(interval)
+    const start = intervals.map(intr => intr[0])
+    const end = intervals.map(intr => intr[1])
+    start.sort((a, b) => a-b)
+    end.sort((a, b) => a-b)
+
+    let i=0, j=0, count = 0, maxCount = 0
+    while(i < start.length && j < end.length) {
+        if(start[i] < end[j]) {
+            count++
+            i++
         } else {
-            pq.dequeue()
-            pq.enqueue(interval)
+            count--
+            j++
         }
+        maxCount = Math.max(maxCount, count)
     }
-    return pq.size()
+    return maxCount
 };
