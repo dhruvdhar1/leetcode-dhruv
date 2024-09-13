@@ -3,16 +3,6 @@
  * @param {number[][]} prerequisites
  * @return {number[]}
  */
-// function hasCycle(root, adj, visited) {
-//     if(visited.has(root)) return true
-//     visited.add(root, -1)
-//     const neigh = adj.get(root) || []
-//     for(const n of neigh) {
-//         const cycle = hasCycle(n, adj, visited)
-//         if(cycle) return true
-//     }
-//     visited.delete(root)
-// }
 function dfs(root, adj, res, visited) {
     if(visited.has(root) && visited.get(root) === -1) return true
     if(visited.has(root)) return false
