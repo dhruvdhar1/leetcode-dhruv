@@ -4,9 +4,7 @@
  */
 function backtrack(s, curr, ind, open, close, res) {
     if(ind >= s.length) {
-        //todo: handle empty curr
-        if(curr === "" && res.size > 0) return
-        if(open === close) {
+        if(open === close && curr != "") {
             res.add(curr)
         }
         return
@@ -16,18 +14,20 @@ function backtrack(s, curr, ind, open, close, res) {
         return
     }
     const ch = s.charAt(ind)
-    // console.log("ch: ", ind, " : ", ch)
     if(ch === '(') {
-        backtrack(s, `${curr}(`, ind+1, open+1, close, res) || backtrack(s, `${curr}`, ind+1, open, close, res)
+        backtrack(s, `${curr}(`, ind+1, open+1, close, res)
     } else if(ch === ')') {
-        backtrack(s, `${curr})`, ind+1, open, close+1, res) || backtrack(s, `${curr}`, ind+1, open, close, res)
+        backtrack(s, `${curr})`, ind+1, open, close+1, res)
     } else {
         backtrack(s, `${curr}${ch}`, ind+1, open, close, res)
+        return
     }
+    backtrack(s, `${curr}`, ind+1, open, close, res)
 }
 var removeInvalidParentheses = function(s) {
     const set = new Set()
     backtrack(s, '', 0, 0, 0, set)
+    if(set.size === 0) return [""]
     const arr = [...set.values()]
     arr.sort((a, b) => b.length - a.length)
     const res = []
