@@ -11,7 +11,6 @@ var findDiagonalOrder = function(mat) {
         
         if(up) {
             while(i >= 0 && j < n) {
-                console.log(i, " : ", j)
                 res.push(mat[i][j]) 
                 i-=1
                 j+=1
