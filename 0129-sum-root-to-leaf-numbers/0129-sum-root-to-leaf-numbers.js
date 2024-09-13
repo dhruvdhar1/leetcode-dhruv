@@ -13,18 +13,19 @@
 function dfs(root, path, nums) {
     if(null === root) return
     if(root.right === null && root.left === null) {
-        const num = parseInt(`${path}${root.val}`)
-        nums.push(num)
+        // const num = parseInt(`${path}${root.val}`)
+
+        nums.push(path*10+root.val)
         return
     }
     
-    dfs(root.left, `${path}${root.val}`, nums)
-    dfs(root.right, `${path}${root.val}`, nums)
+    dfs(root.left, (path*10+root.val), nums)
+    dfs(root.right, (path*10+root.val), nums)
 
 }
 var sumNumbers = function(root) {
     const nums = []
-    dfs(root, "", nums)
+    dfs(root, 0, nums)
     // console.log(nums)
     const sum = nums.reduce((acc, curr) => {
         acc += curr
