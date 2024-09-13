@@ -5,16 +5,13 @@
 function backtrack(nums, ind, curr, res) {
     // console.log("curr: ", curr)
     if(ind >= nums.length) {
-        const temp = [...curr]
-        // temp.sort((a, b) => a-b)
-        const str = temp.join(':')
+        // const temp = [...curr]
+        const str = curr.join(':')
         res.add(str)
         return
     }
-    curr.push(nums[ind])
-    backtrack(nums, ind+1, curr, res)
-    curr.pop()
-    backtrack(nums, ind+1, curr, res)
+    backtrack(nums, ind+1, [...curr, nums[ind]], res)
+    backtrack(nums, ind+1, [...curr], res)
 }
 var subsetsWithDup = function(nums) {
     const set = new Set()
