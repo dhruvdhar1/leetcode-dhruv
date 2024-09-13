@@ -47,9 +47,9 @@ var isPalindrome = function(head) {
         slow = slow.next
         fast = fast.next.next
     }
-    if(slow === fast) {
-        return slow.val === slow.next.val
-    }
+    // if(slow === fast) {
+    //     return slow.val === slow.next.val
+    // }
     const rev = reverseList(slow.next)
     console.log("rev: ", rev)
     slow.next = rev
