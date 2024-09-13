@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0286-walls-and-gates) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0253-meeting-rooms-ii) |
 | [0455-assign-cookies](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0621-task-scheduler) |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0234-palindrome-linked-list) |
+| [0253-meeting-rooms-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0253-meeting-rooms-ii) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0283-move-zeroes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0283-move-zeroes) |
 | [0408-valid-word-abbreviation](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0408-valid-word-abbreviation) |
@@ -241,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0274-h-index) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
@@ -500,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0253-meeting-rooms-ii) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0347-top-k-frequent-elements](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0451-sort-characters-by-frequency) |
@@ -567,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0253-meeting-rooms-ii) |
 | [0523-continuous-subarray-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0560-subarray-sum-equals-k) |
