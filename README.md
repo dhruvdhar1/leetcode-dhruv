@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0205-isomorphic-strings) |
 | [0227-basic-calculator-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0227-basic-calculator-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0301-remove-invalid-parentheses) |
 | [0394-decode-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0394-decode-string) |
 | [0408-valid-word-abbreviation](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0408-valid-word-abbreviation) |
 | [0415-add-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0415-add-strings) |
@@ -680,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0226-invert-binary-tree) |
 | [0286-walls-and-gates](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0286-walls-and-gates) |
+| [0301-remove-invalid-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0301-remove-invalid-parentheses) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0322-coin-change](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0339-nested-list-weight-sum) |
@@ -738,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0113-path-sum-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0301-remove-invalid-parentheses) |
 ## Memoization
 |  |
 | ------- |
