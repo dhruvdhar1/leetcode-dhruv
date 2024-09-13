@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0202-happy-number) |
+| [0234-palindrome-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0234-palindrome-linked-list) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0283-move-zeroes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0283-move-zeroes) |
 | [0408-valid-word-abbreviation](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0408-valid-word-abbreviation) |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0173-binary-search-tree-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0173-binary-search-tree-iterator) |
 | [0227-basic-calculator-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0227-basic-calculator-ii) |
+| [0234-palindrome-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0234-palindrome-linked-list) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0394-decode-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0636-exclusive-time-of-functions) |
@@ -619,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0231-power-of-two) |
+| [0234-palindrome-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0394-decode-string) |
 ## String Matching
 |  |
@@ -731,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0234-palindrome-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0725-split-linked-list-in-parts) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 ## Backtracking
