@@ -34,7 +34,6 @@ class NestedIterator {
     pointer = 0
     constructor(nestedList) {
 		this.flatten(nestedList, this.flat)
-        // this.flat = new Queue(list)
     }
 
     flatten(nestedList, list) {
