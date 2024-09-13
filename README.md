@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0807-custom-sort-string) |
 | [0812-rotate-string](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0812-rotate-string) |
 | [0829-subdomain-visit-count](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0829-subdomain-visit-count) |
+| [0851-goat-latin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0851-goat-latin) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1250-longest-common-subsequence) |
