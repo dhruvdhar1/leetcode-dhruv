@@ -8,7 +8,6 @@ function palindrome(l, r, s) {
         r++
     }
     const ans = s.slice(l+1, r)
-    // console.log("s: ", ans)
     return ans
 }
 var longestPalindrome = function(s) {
