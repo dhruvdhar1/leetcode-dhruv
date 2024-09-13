@@ -19,7 +19,6 @@ var canJump = function(nums) {
     if(nums.length === 1) return true
     let r = nums.length-1, l = nums.length - 2
     while(l >= 0) {
-        console.log("r: ", r)
         if(nums[l] + l >= r) {
             r = l
         }
