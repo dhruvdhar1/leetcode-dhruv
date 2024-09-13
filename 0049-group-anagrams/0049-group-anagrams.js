@@ -6,10 +6,7 @@ var groupAnagrams = function(strs) {
     const map = new Map()
     const res = []
     for(const word of strs) {
-        const strArr = []
-        for(let i=0; i<=26; i++) {
-            strArr.push(0)
-        }
+        const strArr = new Array(26).fill(0)
 
         for(let i=0; i<word.length; i++) {
             const ch = word.charCodeAt(i) - 97
@@ -19,12 +16,9 @@ var groupAnagrams = function(strs) {
         if(!map.has(key)) {
             map.set(key, [])
         }
-        const arr = map.get(key)
-        arr.push(word)
-        map.set(key, arr)
+        map.get(key).push(word)
     }
     for(const [key, value] of map) {
-        // console.log(key)
         res.push(value)
     }
     return res
