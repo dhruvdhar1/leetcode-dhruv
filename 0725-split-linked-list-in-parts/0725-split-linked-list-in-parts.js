@@ -11,38 +11,39 @@
  * @return {ListNode[]}
  */
 var splitListToParts = function(head, k) {
-    const arr = new Array(k).fill(null)
-    if(head === null) return arr
-    let curr = head
-    let next = curr.next
-    let pos = 2
+    const res = new Array(k).fill(null)
+    if(head === null) return res
     let len = 0
-    let arrInd = 0
+    let curr = head, next = curr.next
     while(curr != null) {
-        len++
         curr = curr.next
+        len++
     }
     curr = head
-    let partSize = Math.floor(len/k)
-    let partInd = len%k
-    while(next != null) {
-        let offset = partInd > 0 ? 1 : 0
-        if(pos > partSize + offset) {
-            pos = 2
-            arr[arrInd++] = head
-            curr.next = null
-            curr = next
-            head = next
-            next = next.next
-            partInd--
-        } else {
-            pos++
+    const partSize = Math.floor(len/k)
+    let extra = len%k
+    let pos = 1
+    let ind = 0
+    while(curr != null) {
+        let offset = 0
+        if(extra > 0) {
+            offset = 1
+            extra--
+        }
+        //todo: null check
+        while(pos !== (partSize + offset) && next != null) {
             curr = curr.next
             next = next.next
+            pos++
         }
+        curr.next = null
+        res[ind++] = head
+        head = next
+        curr = next
+        if(next != null) {
+            next = next.next
+        }
+        pos = 1
     }
-    if(head != null) {
-        arr[arrInd] = head
-    }
-    return arr
+    return res
 };
