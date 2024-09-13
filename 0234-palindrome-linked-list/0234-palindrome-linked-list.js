@@ -1,21 +1,3 @@
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
- * @param {ListNode} head
- * @return {boolean}
-    -----------v
-    1 <-- 2  3 --> null
-    c     nh  
-          -------------
-         c     h     V n
-    2 --> 1    3  null
-    ^-----------
- */
 
 function reverse(head) {
     if(head === null) return null
