@@ -36,7 +36,6 @@ var isCompleteTree = function(root) {
                 }
             }
         }
-        console.log("level: ", level, levelEl)
         if(level < height) {
             if(levelEl.length < Math.pow(2, level-1)) return false
         } else {
@@ -47,7 +46,6 @@ var isCompleteTree = function(root) {
                     break
                 }
             }
-            console.log("pivot: ", pivot)
             if(pivot != -1) {
             for(let i=pivot; i<levelEl.length; i++) {
                 if(levelEl[i] != null) {
