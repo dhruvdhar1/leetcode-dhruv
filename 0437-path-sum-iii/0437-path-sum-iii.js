@@ -6,34 +6,50 @@
  *     this.right = (right===undefined ? null : right)
  * }
  */
-/**
- * @param {TreeNode} root
- * @param {number} targetSum
- * @return {number}
- */
+/**   
+                    10
+                 5      -3
+               3   2      11  
+             3  -2   1
 
+    {
+        0: 1
+        10: 1
+        5: 1
+        18:2
+        21:1
+        16:1
+        17:1
+
+    }
+
+    sum-target is in the dict
+    count = 3
+    sum=18
+ */
 var pathSum = function(root, targetSum) {
     const map = new Map([[0,1]])
     let count = 0
+
     function dfs(node, sum) {
-        if(node == null) return 
-
-        const currSum = sum + node.val
-        const diff = currSum - targetSum
+        if(node === null) return null
+        const curr = sum+node.val
+        const diff = curr-targetSum
         if(map.has(diff)) {
-            count += map.get(diff) || 0
+            count += map.get(diff)
         }
-        if(map.has(currSum)) {
-            map.set(currSum, map.get(currSum) + 1)
+        if(map.has(sum)) {
+            const f = map.get(curr) || 0
+            map.set(curr, f+1)
         } else {
-            map.set(currSum, 1)
+            map.set(curr, 1)
         }
-        dfs(node.left, currSum)
-        dfs(node.right, currSum)
-
-        map.set(currSum, map.get(currSum)-1)
-        if(map.get(currSum) === 0) {
-            map.delete(currSum)
+        dfs(node.left, curr)
+        dfs(node.right, curr)
+        sum -= node.val
+        map.set(curr, map.get(curr)-1)
+        if(map.get(curr) === 0) {
+            map.delete(curr)
         }
     }
 
