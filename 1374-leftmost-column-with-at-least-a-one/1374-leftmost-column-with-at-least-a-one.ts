@@ -17,7 +17,6 @@ function getLowerBound(rowInd, end, binaryMatrix) {
             l = mid+1
         }
     }
-    console.log("l: ", l)
     return l
 }
 function leftMostColumnWithOne(binaryMatrix: BinaryMatrix) {
@@ -29,6 +28,5 @@ function leftMostColumnWithOne(binaryMatrix: BinaryMatrix) {
         const lowerBound = getLowerBound(i, col, binaryMatrix)
         minInd = Math.min(minInd, lowerBound)
     }
-    // console.log(minInd, " : ", col+1)
     return minInd >= (col) ? -1 : minInd
 };
