@@ -10,20 +10,53 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-
+function getHeight(root) {
+    if(null === root) return 0
+    const l = getHeight(root.left)
+    const r = getHeight(root.right)
+    return 1 + Math.max(l, r)
+}
 var isCompleteTree = function(root) {
-    const q = [root]
-    let prevNull = false
-    while(q.length > 0) {
-        const pop = q.shift()
-        if(pop === null) {
-            prevNull = true
-            continue;
+    const height = getHeight(root)
+    const q = new Queue([root])
+    let level = 1
+    console.log(height)
+    while(q.size() > 0 && level <= height) {
+        const levelEl = []
+        let len = q.size()
+        for(let i=0; i<len; i++) {
+            const pop = q.dequeue()
+            levelEl.push(pop)
+            if(pop != null) {
+                if(pop.left || level === height-1) {
+                    q.push(pop.left)
+                }
+                if(pop.right || level === height-1) {
+                    q.push(pop.right)
+                }
+            }
         }
-        if(prevNull) return false
-        q.push(pop.left)
-        q.push(pop.right)
-        
+        console.log("level: ", level, levelEl)
+        if(level < height) {
+            if(levelEl.length < Math.pow(2, level-1)) return false
+        } else {
+            let pivot = -1
+            for(let i=0; i<levelEl.length; i++) {
+                if(levelEl[i] == null) {
+                    pivot = i
+                    break
+                }
+            }
+            console.log("pivot: ", pivot)
+            if(pivot != -1) {
+            for(let i=pivot; i<levelEl.length; i++) {
+                if(levelEl[i] != null) {
+                    return false
+                }
+            }
+            }
+        }
+        level++
     }
     return true
-};
+};  
