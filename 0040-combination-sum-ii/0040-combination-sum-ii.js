@@ -14,7 +14,7 @@ function backtrack(candidates, target, ind, arr, res) {
 
     for(let i=ind; i<candidates.length; i++) {
         if(i > ind && candidates[i] === candidates[i-1]) continue
-        // if(candidates[i] > target) break
+        if(candidates[i] > target) break
         arr.push(candidates[i])
         backtrack(candidates, target-candidates[i], i+1, arr, res)
         arr.pop()
