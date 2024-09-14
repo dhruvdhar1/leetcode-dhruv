@@ -22,21 +22,21 @@ var isEvenOddTree = function(root) {
 
     while(q.size() > 0) {
         const len = q.size()
-        const levelEl = []
+        let levelEl
         if(level%2 === 0) {
-            levelEl.push(-1)
+            levelEl = -1
         } else {
-            levelEl.push(MAX_VAL)
+            levelEl = MAX_VAL
         }
         for(let i=0; i<len; i++) {
             const pop = q.dequeue()
-            if(level%2 === 0 && (pop.val%2 === 0 || pop.val <= levelEl[levelEl.length-1])) {
+            if(level%2 === 0 && (pop.val%2 === 0 || pop.val <= levelEl)) {
                 return false
             }
-            if(level%2 !== 0 && (pop.val%2 !== 0 || pop.val >= levelEl[levelEl.length-1])) {
+            if(level%2 !== 0 && (pop.val%2 !== 0 || pop.val >= levelEl)) {
                 return false
             }
-            levelEl.push(pop.val)
+            levelEl = pop.val
             if(pop.left) {
                 q.enqueue(pop.left)
             }
