@@ -16,6 +16,7 @@
          [[1], [10,4], [3, 7, 9], [12, 8, 6, 2]]
   */
 var isEvenOddTree = function(root) {
+    const MAX_VAL = 10000000
     const q = new Queue([root])
     let level = 0
 
@@ -25,17 +26,14 @@ var isEvenOddTree = function(root) {
         if(level%2 === 0) {
             levelEl.push(-1)
         } else {
-            levelEl.push(10000000)
+            levelEl.push(MAX_VAL)
         }
         for(let i=0; i<len; i++) {
             const pop = q.dequeue()
-            //todo: check increasing/dec
             if(level%2 === 0 && (pop.val%2 === 0 || pop.val <= levelEl[levelEl.length-1])) {
-                // console.log("here...")
                 return false
             }
             if(level%2 !== 0 && (pop.val%2 !== 0 || pop.val >= levelEl[levelEl.length-1])) {
-                // console.log("odd: ", pop.val, levelEl, level, pop.val >= levelEl[levelEl.length-1], pop.value%2 !== 0)
                 return false
             }
             levelEl.push(pop.val)
@@ -50,7 +48,3 @@ var isEvenOddTree = function(root) {
     }
     return true
 };
-
-//level=2
-// q: [,7]
-//levelEl: [-1,3]
