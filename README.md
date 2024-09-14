@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1374-leftmost-column-with-at-least-a-one) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1646-kth-missing-positive-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1646-kth-missing-positive-number) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1961-maximum-ice-cream-bars) |
@@ -566,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1890-sum-of-beauty-of-all-substrings) |
