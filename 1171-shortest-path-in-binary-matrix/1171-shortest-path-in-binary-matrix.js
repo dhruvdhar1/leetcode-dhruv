@@ -27,14 +27,6 @@ var shortestPathBinaryMatrix = function(grid) {
             const dy = dir[1]
             q.enqueue([x+dx, y+dy, length+1])
         }
-        // q.enqueue([x-1, y, length+1])
-        // q.enqueue([x-1, y+1, length+1])
-        // q.enqueue([x+1, y, length+1])
-        // q.enqueue([x+1, y+1, length+1])
-        // q.enqueue([x-1, y-1, length+1])
-        // q.enqueue([x, y-1, length+1])
-        // q.enqueue([x, y+1, length+1])
-        // q.enqueue([x+1, y-1, length+1])
     }
     return -1
 };
