@@ -38,10 +38,10 @@ var isEvenOddTree = function(root) {
             }
             levelEl.push(pop.val)
             if(pop.left) {
-                q.push(pop.left)
+                q.enqueue(pop.left)
             }
             if(pop.right) {
-                q.push(pop.right)
+                q.enqueue(pop.right)
             }
         }
         level++
