@@ -32,7 +32,6 @@ function dfs(i, j, m, n, destination, visited, maze) {
     const b = dfs(down, j, m, n, destination, visited, maze)
     const c = dfs(i, left, m, n, destination, visited, maze)
     const d = dfs(i, right, m, n, destination, visited, maze)
-    // visited.delete(key)
     return a || b || c || d
 }
 var hasPath = function(maze, start, destination) {
