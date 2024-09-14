@@ -7,26 +7,20 @@
  *      dimensions(): number[] {}
  * }
  */
-function getLowerBound(rowInd, end, binaryMatrix) {
-    let l = 0, r = end;
-    while(l < r) {
-        const mid = l + Math.floor((r-l)/2)
-        if(binaryMatrix.get(rowInd, mid) === 1) {
-            r = mid
-        } else {
-            l = mid+1
-        }
-    }
-    return l
-}
+
 function leftMostColumnWithOne(binaryMatrix: BinaryMatrix) {
 	const dim = binaryMatrix.dimensions()
-    const row = dim[0]
-    const col = dim[1]
-    let minInd = col+1
-    for(let i=0; i<row; i++) {
-        const lowerBound = getLowerBound(i, col, binaryMatrix)
-        minInd = Math.min(minInd, lowerBound)
+    const r = dim[0]
+    const c = dim[1]
+    let i=r-1, j=c-1
+    let minCol = c
+    while(i >= 0 && j >= 0) {
+        if(binaryMatrix.get(i,j) === 1) {
+            minCol = j
+            j--
+        } else {
+            i--
+        }
     }
-    return minInd >= (col) ? -1 : minInd
+    return minCol>=c ? -1 : minCol
 };
