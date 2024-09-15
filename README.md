@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-spiral-matrix-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0921-spiral-matrix-iii) |
 | [0929-groups-of-special-equivalent-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0929-groups-of-special-equivalent-strings) |
 | [0932-monotonic-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0932-monotonic-array) |
+| [0941-sort-array-by-parity](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0941-sort-array-by-parity) |
 | [0966-binary-subarrays-with-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0966-binary-subarrays-with-sum) |
 | [0990-verifying-an-alien-dictionary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0990-verifying-an-alien-dictionary) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0768-partition-labels) |
 | [0852-friends-of-appropriate-ages](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0852-friends-of-appropriate-ages) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
+| [0941-sort-array-by-parity](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0941-sort-array-by-parity) |
 | [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1028-interval-list-intersections) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [0929-groups-of-special-equivalent-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0929-groups-of-special-equivalent-strings) |
+| [0941-sort-array-by-parity](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0941-sort-array-by-parity) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
