@@ -19,7 +19,7 @@ var validTree = function(n, edges) {
         adj.get(src).push(dest)
         adj.get(dest).push(src)
     }
-    console.log(adj)
+    // console.log(adj)
     const q = new Queue([[0,-1]])
     while(q.size() > 0) {
         const pop = q.dequeue()
