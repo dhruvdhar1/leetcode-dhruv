@@ -29,3 +29,5 @@ var minEatingSpeed = function(piles, h) {
     }
     return ans
 };
+
+//TC: nlogn + Max(arr)logn
