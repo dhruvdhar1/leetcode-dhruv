@@ -8,14 +8,14 @@ function canEat(piles, k, h) {
     for(let j=0; j<piles.length; j++) {
         hours += Math.ceil(piles[j]/k)
     }
+    console.log("k: ", k, " : ", hours)
     if(hours <= h) {
         return true
     }
     return false
 }
 var minEatingSpeed = function(piles, h) {
-    piles.sort((a,b) => a-b)
-    const maxK = piles[piles.length-1]
+    const maxK = 1e9//piles[piles.length-1]
     let l = 1, r = maxK
     let ans = -1
     while(l <= r) {
