@@ -24,7 +24,6 @@ var shortestBridge = function(grid) {
         for(let j=0; j<n; j++) {
             if(grid[i][j] === 1) {
                 colorIsland(grid, i, j, m, n, q, q)
-                // start = [i, j, 0]
                 found = true
                 break
             }
@@ -33,7 +32,6 @@ var shortestBridge = function(grid) {
             break
         }
     }
-    // console.log(grid)
     const dists = []
     const visited = new Set()
     while(q.size() > 0) {
@@ -41,7 +39,6 @@ var shortestBridge = function(grid) {
         const x = pop[0]
         const y = pop[1]
         const dist = pop[2]
-        // console.log(pop)
         if(grid[x][y] === 1) {
             dists.push(dist)
         }
@@ -60,6 +57,5 @@ var shortestBridge = function(grid) {
         }
         visited.add(key)
     }
-    // console.log(dists)
     return Math.min(...dists) - 1
 };
