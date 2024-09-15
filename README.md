@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
 | [0921-spiral-matrix-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0921-spiral-matrix-iii) |
 | [0929-groups-of-special-equivalent-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0929-groups-of-special-equivalent-strings) |
+| [0932-monotonic-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0932-monotonic-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0966-binary-subarrays-with-sum) |
 | [0990-verifying-an-alien-dictionary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0990-verifying-an-alien-dictionary) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
