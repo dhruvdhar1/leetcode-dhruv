@@ -16,19 +16,19 @@ var inorderSuccessor = function(root, p) {
     let successor = null
     function dfs(node) {
         if(node == null) return null
-        const l = dfs(node.left)
-        if(node_found) {
-        //    successor = node
-           node_found = false
-           return node
+        if(node.val > p.val) {
+            dfs(node.left)
+            if(node_found) {
+                node_found = false
+                successor = node
+            }
+        } else {
+            if(node.val === p.val) {
+                node_found = true
+            }
+            dfs(node.right)
         }
-        if(node === p) {
-            node_found = true
-        }
-        const r = dfs(node.right)
-        return l || r
     }
-    return dfs(root)
-    // return successor
-    
+    dfs(root)
+    return successor
 };
