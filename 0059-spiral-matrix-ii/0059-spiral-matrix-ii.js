@@ -31,40 +31,31 @@ var generateMatrix = function(n) {
 
         if(top <= bottom) {
             for(let i=left; i<=right; i++) {
-                console.log(top, i, count)
                 arr[top][i] = count++
-                // console.log(count-1)
             }
             top++
         }
 
         if(right >= left) {
             for(let i=top; i<=bottom; i++) {
-                console.log("d: ", i, right, count)
                 arr[i][right] = count++
-                // console.log(count-1)
             }
             right--
         }
 
-        // if(bottom <= top) {
+        if(bottom >= top) {
             for(let i=right; i>=left; i--) {
-                console.log("b: ", bottom, i, count)
                 arr[bottom][i] = count++
-                // console.log(count-1)
             }
             bottom--
-        // }
+        }
         if(left <= right) {
             for(let i=bottom; i>=top; i--) {
-                console.log("le: ", i, left, count)
                 arr[i][left] = count++
-                // console.log(count-1)
             }
             left++
         }
     }
-    console.log(arr)
     return arr
 
 };
