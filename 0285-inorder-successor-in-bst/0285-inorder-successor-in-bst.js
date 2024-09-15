@@ -12,21 +12,21 @@
  */
 var inorderSuccessor = function(root, p) {
     const inorder = []
+    let node_found = false
+    let successor = null
     function dfs(node) {
-        if(node == null) return
-        dfs(node.left)
-        inorder.push(node)
-        dfs(node.right)
+        if(node == null) return null
+        const l = dfs(node.left)
+        if(node_found) {
+           successor = node
+           node_found = false
+        }
+        if(node === p) {
+            node_found = true
+        }
+        const r = dfs(node.right)
     }
     dfs(root)
-    let ind = -1
-    for(let i=0; i<inorder.length; i++) {
-        if(inorder[i].val === p.val) {
-            ind = i
-            break
-        }
-    }
-    // console.log(inorder[ind+1], ind)
-    // console.log((ind < 0 || ind >= inorder.length-1) ? null : inorder[ind+1])
-    return (ind < 0 || ind >= inorder.length-1) ? null : inorder[ind+1]
+    return successor
+    
 };
