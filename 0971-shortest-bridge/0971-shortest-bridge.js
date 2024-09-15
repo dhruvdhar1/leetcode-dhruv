@@ -4,7 +4,7 @@
  */
 function colorIsland(grid, i, j, m, n, q) {
     if(i < 0 || j < 0 || i >= m || j >= n 
-                || grid[i][j] === 2 || grid[i][j] === 0) {
+                || grid[i][j] !== 1) {
         return
     }
     grid[i][j] = 2
