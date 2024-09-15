@@ -16,8 +16,7 @@ function canEat(piles, k, h) {
 }
 var minEatingSpeed = function(piles, h) {
     const maxK = 1e9//piles[piles.length-1]
-    const sum = piles.reduce((acc, curr) => acc += curr, 0)
-    let l = Math.ceil(sum/h), r = maxK
+    let l = 1, r = maxK
     let ans = -1
     while(l <= r) {
         const mid = Math.floor(l+(r-l)/2)
