@@ -2,34 +2,41 @@
  * @param {number[][]} heights
  * @return {number[][]}
  */
+function dfs(i, j, m, n, heights, prevHeight, visited) {
+    const key = `${i}:${j}`
+    if(i < 0 || j < 0 || i >= m || j >= n || visited.has(key) || heights[i][j] < prevHeight) {
+        return false
+    }
+
+    visited.add(key)
+    dfs(i+1, j, m, n, heights, heights[i][j], visited)
+    dfs(i, j+1, m, n, heights, heights[i][j], visited)
+    dfs(i-1, j, m, n, heights, heights[i][j], visited)
+    dfs(i, j-1, m, n, heights, heights[i][j], visited)
+}
 var pacificAtlantic = function(heights) {
-    function dfs(i, j, prevheight, visited) {
-        const key = `${i}:${j}`
-        if(i < 0 || j < 0 || i >= heights.length || j >= heights[0].length
-                || visited.has(key) || heights[i][j] < prevheight) return
-        visited.add(key)
-        dfs(i+1, j, heights[i][j], visited)
-        dfs(i-1, j, heights[i][j], visited)
-        dfs(i, j+1, heights[i][j], visited)
-        dfs(i, j-1, heights[i][j], visited)
-    }
-    const pacSet = new Set()
-    const atlSet = new Set()
-    
-    for(let r=0; r<heights[0].length; r++) {
-        dfs(0, r, heights[0][r], pacSet)
-        dfs(heights.length-1, r, heights[heights.length-1][r], atlSet)
-    }
+    const m = heights.length
+    const n = heights[0].length
 
-    for(let c=0; c<heights.length; c++) {
-        dfs(c, 0, heights[c][0], pacSet)
-        dfs(c, heights[0].length-1, heights[c][heights[0].length-1], atlSet)
-    }
-
+    const pacificSet = new Set()
+    const atlanticSet = new Set()
     const res = []
-    for(const cor of pacSet) {
-        if(atlSet.has(cor)) {
-            res.push(cor.split(":"))
+    for(i=0; i<m; i++) {
+        dfs(i, 0, m, n, heights, -1, pacificSet)
+        dfs(i, n-1, m, n, heights, -1, atlanticSet)
+    }
+    for(i=0; i<n; i++) {
+        dfs(0, i, m, n, heights, -1, pacificSet)
+        dfs(m-1, i, m, n, heights, -1, atlanticSet)
+    }
+    // console.log(pacificSet)
+    // console.log("-----")
+    // console.log(atlanticSet)
+
+    for(const cell of pacificSet) {
+        if(atlanticSet.has(cell)) {
+            const arr = cell.split(':')
+            res.push(arr)
         }
     }
     return res
