@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0932-monotonic-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0932-monotonic-array) |
 | [0941-sort-array-by-parity](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0941-sort-array-by-parity) |
 | [0966-binary-subarrays-with-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0966-binary-subarrays-with-sum) |
+| [0971-shortest-bridge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0971-shortest-bridge) |
 | [0990-verifying-an-alien-dictionary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0990-verifying-an-alien-dictionary) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
@@ -433,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-leaf-similar-trees](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0904-leaf-similar-trees) |
+| [0971-shortest-bridge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0971-shortest-bridge) |
 | [0975-range-sum-of-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0975-range-sum-of-bst) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -709,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0695-max-area-of-island) |
 | [0777-toeplitz-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0777-toeplitz-matrix) |
 | [0921-spiral-matrix-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0921-spiral-matrix-iii) |
+| [0971-shortest-bridge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0971-shortest-bridge) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1374-leftmost-column-with-at-least-a-one) |
@@ -769,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [0971-shortest-bridge](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0971-shortest-bridge) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
