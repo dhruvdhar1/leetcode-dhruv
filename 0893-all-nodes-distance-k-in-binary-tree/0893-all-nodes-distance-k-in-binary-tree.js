@@ -12,12 +12,8 @@
  * @return {number[]}
  */
 function dfs(node, parent, target, map) {
-    let tn = null
     if(node === null) {
         return
-    }
-    if(node === target) {
-        tn = node
     }
     if(!map.has(node)) {
         map.set(node, [])
@@ -31,17 +27,16 @@ function dfs(node, parent, target, map) {
     }
     const l = dfs(node.left, node, target, map)
     const r = dfs(node.right, node, target, map)
-    return l || r || tn
 }
 
 var distanceK = function(root, target, k) {
     const map = new Map()
-    const targetNode = dfs(root, null, target, map, map)
+    dfs(root, null, target, map, map)
 
     const res = []
-    const q = new Queue([[targetNode, 0]])
+    const q = new Queue([[target, 0]])
     const visited = new Set()
-    visited.add(targetNode)
+    visited.add(target)
     while(q.size() > 0) {
         const pop = q.dequeue()
         const node = pop[0]
