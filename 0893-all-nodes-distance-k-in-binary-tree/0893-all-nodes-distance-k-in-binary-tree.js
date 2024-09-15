@@ -36,9 +36,8 @@ function dfs(node, parent, target, map) {
 
 var distanceK = function(root, target, k) {
     const map = new Map()
-    // let targetNode = null
     const targetNode = dfs(root, null, target, map, map)
-    console.log(targetNode)
+
     const res = []
     const q = new Queue([[targetNode, 0]])
     const visited = new Set()
