@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0285-inorder-successor-in-bst) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0333-largest-bst-subtree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0333-largest-bst-subtree) |
 | [0341-flatten-nested-list-iterator](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0341-flatten-nested-list-iterator) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0261-graph-valid-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0285-inorder-successor-in-bst) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0333-largest-bst-subtree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0333-largest-bst-subtree) |
 | [0339-nested-list-weight-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0339-nested-list-weight-sum) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0285-inorder-successor-in-bst) |
 | [0300-longest-increasing-subsequence](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0300-longest-increasing-subsequence) |
 | [0333-largest-bst-subtree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0333-largest-bst-subtree) |
 | [0450-delete-node-in-a-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0450-delete-node-in-a-bst) |
@@ -475,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0285-inorder-successor-in-bst) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0333-largest-bst-subtree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0333-largest-bst-subtree) |
 | [0404-sum-of-left-leaves](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0404-sum-of-left-leaves) |
