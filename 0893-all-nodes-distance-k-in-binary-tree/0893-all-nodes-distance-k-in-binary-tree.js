@@ -11,31 +11,34 @@
  * @param {number} k
  * @return {number[]}
  */
+function dfs(node, parent, target, map) {
+    let tn = null
+    if(node === null) {
+        return
+    }
+    if(node === target) {
+        tn = node
+    }
+    if(!map.has(node)) {
+        map.set(node, [])
+    }
+    if(parent && !map.has(parent)) {
+        map.set(parent, [])
+    }
+    if(parent) {
+        map.get(parent).push(node)
+        map.get(node).push(parent)
+    }
+    const l = dfs(node.left, node, target, map)
+    const r = dfs(node.right, node, target, map)
+    return l || r || tn
+}
+
 var distanceK = function(root, target, k) {
     const map = new Map()
-    let targetNode = null
-    function dfs(node, parent) {
-        if(node === null) {
-            return
-        }
-        if(node === target) {
-            targetNode = node
-        }
-        if(!map.has(node)) {
-            map.set(node, [])
-        }
-        if(parent && !map.has(parent)) {
-            map.set(parent, [])
-        }
-        if(parent) {
-            map.get(parent).push(node)
-            map.get(node).push(parent)
-        }
-        dfs(node.left, node)
-        dfs(node.right, node)
-    }
-    dfs(root, null)
-    // console.log(map)
+    // let targetNode = null
+    const targetNode = dfs(root, null, target, map, map)
+    console.log(targetNode)
     const res = []
     const q = new Queue([[targetNode, 0]])
     const visited = new Set()
@@ -44,13 +47,11 @@ var distanceK = function(root, target, k) {
         const pop = q.dequeue()
         const node = pop[0]
         const dist = pop[1]
-        // console.log(node.val, " ------ ", dist)
         if(dist === k) {
             res.push(node.val)
         }
 
         const neigh = map.get(node) || []
-        // console.log("nnn: ", neigh)
         for(const n of neigh) {
             if(!visited.has(n)) {
                 q.enqueue([n, dist+1])
