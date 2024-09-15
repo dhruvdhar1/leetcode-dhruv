@@ -18,15 +18,17 @@ var inorderSuccessor = function(root, p) {
         if(node == null) return null
         const l = dfs(node.left)
         if(node_found) {
-           successor = node
+        //    successor = node
            node_found = false
+           return node
         }
         if(node === p) {
             node_found = true
         }
         const r = dfs(node.right)
+        return l || r
     }
-    dfs(root)
-    return successor
+    return dfs(root)
+    // return successor
     
 };
