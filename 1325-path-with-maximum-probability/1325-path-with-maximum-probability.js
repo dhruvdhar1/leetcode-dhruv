@@ -9,37 +9,35 @@
 
 var maxProbability = function(n, edges, succProb, start_node, end_node) {
     const adj = new Map()
-    const visited = new Set()
-    visited.add(start_node)
     for(let i=0; i<edges.length; i++) {
         const edge = edges[i]
-        const s = edge[0]
-        const d = edge[1]
-        const prob = succProb[i]
-        if(!adj.has(s)) {
-            adj.set(s, [])
+        const src = edge[0]
+        const dest = edge[1]
+        if(!adj.has(src)) {
+            adj.set(src, [])
         }
-        if(!adj.has(d)) {
-            adj.set(d, [])
+        if(!adj.has(dest)) {
+            adj.set(dest, [])
         }
-        adj.get(s).push([d, prob])
-        adj.get(d).push([s, prob])
+        adj.get(src).push([dest, succProb[i]])
+        adj.get(dest).push([src, succProb[i]])
     }
-
-    const pq = new MaxPriorityQueue({ priority: node => node[1]})
+    const visited = new Set()
+    const pq = new MaxPriorityQueue({ priority: el => el[1]})
     pq.enqueue([start_node, 1])
-
     while(pq.size() > 0) {
         const pop = pq.dequeue().element
         const node = pop[0]
-        const prob = pop[1]
+        const p = pop[1]
         if(node === end_node) {
-            return prob
+            return p
         }
         const neigh = adj.get(node) || []
         for(const n of neigh) {
             if(!visited.has(n[0])) {
-                pq.enqueue([n[0], (prob*n[1])])
+                const child  = n[0]
+                const newProb = n[1] * p
+                pq.enqueue([child, newProb])
             }
         }
         visited.add(node)
