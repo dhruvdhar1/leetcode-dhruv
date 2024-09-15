@@ -15,5 +15,12 @@ function isDecreasing(nums) {
     return true
 }
 var isMonotonic = function(nums) {
-    return isIncreasing(nums) || isDecreasing(nums)
+    let increase = true
+    let decrease = true
+    for(let i=1; i<nums.length; i++) {
+        if(nums[i-1] < nums[i]) decrease = false
+        if(nums[i-1] > nums[i]) increase = false
+        if(!increase && !decrease) return false
+    }
+    return true
 };
