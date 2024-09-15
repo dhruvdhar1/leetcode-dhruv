@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0876-hand-of-straights) |
 | [0912-random-pick-with-weight](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0912-random-pick-with-weight) |
 | [0917-boats-to-save-people](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0917-boats-to-save-people) |
+| [0921-spiral-matrix-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0921-spiral-matrix-iii) |
 | [0966-binary-subarrays-with-sum](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0966-binary-subarrays-with-sum) |
 | [0990-verifying-an-alien-dictionary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0990-verifying-an-alien-dictionary) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
@@ -693,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0695-max-area-of-island) |
 | [0777-toeplitz-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0777-toeplitz-matrix) |
+| [0921-spiral-matrix-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0999-regions-cut-by-slashes) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1374-leftmost-column-with-at-least-a-one) |
@@ -823,6 +825,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0067-add-binary) |
 | [0415-add-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0415-add-strings) |
 | [0498-diagonal-traverse](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0498-diagonal-traverse) |
+| [0921-spiral-matrix-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0921-spiral-matrix-iii) |
 | [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
 ## Bit Manipulation
 |  |
