@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2339-k-divisible-elements-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2339-k-divisible-elements-subarrays) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2411-spiral-matrix-iv](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2411-spiral-matrix-iv) |
 | [2459-minimum-hours-of-training-to-win-a-competition](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2459-minimum-hours-of-training-to-win-a-competition) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
@@ -719,6 +720,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2411-spiral-matrix-iv](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2411-spiral-matrix-iv) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -821,6 +823,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0234-palindrome-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0725-split-linked-list-in-parts) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
+| [2411-spiral-matrix-iv](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2411-spiral-matrix-iv) |
 ## Backtracking
 |  |
 | ------- |
@@ -848,6 +851,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0415-add-strings) |
 | [0498-diagonal-traverse](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0498-diagonal-traverse) |
 | [0921-spiral-matrix-iii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0921-spiral-matrix-iii) |
+| [2411-spiral-matrix-iv](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2411-spiral-matrix-iv) |
 | [2483-task-scheduler-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2483-task-scheduler-ii) |
 ## Bit Manipulation
 |  |
