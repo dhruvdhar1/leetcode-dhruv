@@ -15,7 +15,7 @@ var countHillValley = function(nums) {
         while(r < nums.length-1 && nums[r] == nums[i]) r++
 
         if(nums[l] < nums[i] && nums[r] < nums[i]) count++
-        if(nums[l] > nums[i] && nums[r] > nums[i]) count++
+        else if(nums[l] > nums[i] && nums[r] > nums[i]) count++
         i++
     }
     return count
