@@ -27,7 +27,6 @@ var multiply = function(num1, num2) {
     for(let i=0; i<n1.length; i++) {
         for(let j=0; j<n2.length; j++) {
             const prod = parseInt(n1[i]) * parseInt(n2[j]) //18
-            // console.log("prod: ", prod)
             res[i+j] += prod
             const carry = Math.floor(res[i+j]/10)
             res[i+j] = res[i+j]%10
