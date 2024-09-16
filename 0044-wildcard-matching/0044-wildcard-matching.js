@@ -1,10 +1,3 @@
-/**
- * @param {string} s
- * @param {string} p
- * @return {boolean}
- */
-// TC: O(m.n)
-// SC: O(m.n)
 function backtrack(s, p, i, j, dp) {
     if(i > s.length && j > p.length) {
         return true
@@ -18,7 +11,7 @@ function backtrack(s, p, i, j, dp) {
 
     let res = false
     if(ch2 === '*') {
-        res = backtrack(s, p, i+1, j, dp) || backtrack(s, p, i, j+1, dp) || backtrack(s, p, i+1, j+1, dp)
+        res = backtrack(s, p, i+1, j, dp) || backtrack(s, p, i, j+1, dp)
     } else if(ch2 === '?') {
         res = backtrack(s, p, i+1, j+1, dp)
     } else {
