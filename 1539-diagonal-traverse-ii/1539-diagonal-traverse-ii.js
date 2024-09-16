@@ -4,18 +4,17 @@
  */
 var findDiagonalOrder = function(nums) {
     const res = []
-    const map = new Map()
-    for(let i=0; i<nums.length; i++) {
-        for(j=0; j<nums[i].length; j++) {
-            if(!map.has(i+j)) {
-                map.set(i+j, [])
-            }
-            map.get(i+j).push(nums[i][j])
+    const q = new Queue([[0, 0]])
+    while(q.size() > 0) {
+        const [x, y] = q.dequeue()
+        // console.log(x, y)
+        res.push(nums[x][y])
+        const upRightInd = [x-1, y+1]
+        if(y === 0 && x+1 < nums.length) {
+            q.enqueue([x+1, y])
         }
-    }
-    for(const [key, list] of map) {
-        while(list.length > 0) {
-            res.push(list.pop())
+        if(y+1 < nums[x].length) {
+            q.enqueue([x, y+1])
         }
     }
     return res
