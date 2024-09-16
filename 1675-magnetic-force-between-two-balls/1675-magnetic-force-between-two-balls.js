@@ -15,9 +15,9 @@ function getBallCount(positions, m) {
 }
 var maxDistance = function(position, m) {
     position.sort((a, b) => a-b)
-    if(m === 2) {
-        return position[position.length-1] - position[0]
-    }
+    // if(m === 2) {
+    //     return position[position.length-1] - position[0]
+    // }
     let l=0, r = position[position.length-1]
     let ans = -1
     while(l <= r) {
