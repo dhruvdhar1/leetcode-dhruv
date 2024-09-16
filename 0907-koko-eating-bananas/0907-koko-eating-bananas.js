@@ -8,7 +8,6 @@ function canEat(piles, k, h) {
     for(let j=0; j<piles.length; j++) {
         hours += Math.ceil(piles[j]/k)
     }
-    console.log("k: ", k, " : ", hours)
     if(hours <= h) {
         return true
     }
