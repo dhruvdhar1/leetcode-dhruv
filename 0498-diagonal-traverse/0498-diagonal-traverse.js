@@ -4,38 +4,21 @@
  */
 var findDiagonalOrder = function(mat) {
     const res = []
-    const m = mat.length
-    const n = mat[0].length
-    let r = 0, c = 0
-    let going_up = true
-    while(res.length < m*n) {
-        if(going_up) {
-            while(r >= 0 && c < n) {
-                res.push(mat[r][c])
-                r--
-                c++
+    const map = new Map()
+    for(let i=0; i<mat.length; i++) {
+        for(j=0; j<mat[i].length; j++) {
+            if(!map.has(i+j)) {
+                map.set(i+j, [])
             }
-            if(c >= n) {
-                r += 2
-                c -= 1
-            } else if(r < 0) {
-                r++
-            }
-            going_up = false
-        } else {
-            while(c >= 0 && r < m) {
-                res.push(mat[r][c])
-                r++
-                c--
-            }
-            if(r >= m) {
-                c += 2
-                r -= 1
-            } else if(c < 0) {
-                c++
-            }
-            going_up = true
+            map.get(i+j).push(mat[i][j])
         }
+    }
+
+    for(const [key, list] of map) {
+        if(key%2 === 0) {
+            list.reverse()
+        }
+        res.push(...list)
     }
     return res
 };
