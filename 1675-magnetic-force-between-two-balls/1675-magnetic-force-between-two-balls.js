@@ -5,7 +5,7 @@
  */
 function getBallCount(positions, m) {
     let count = 1, pivot = 0
-    for(let i=0; i<positions.length; i++) {
+    for(let i=1; i<positions.length; i++) {
         if(positions[i] - positions[pivot] >= m) {
             count++
             pivot = i
