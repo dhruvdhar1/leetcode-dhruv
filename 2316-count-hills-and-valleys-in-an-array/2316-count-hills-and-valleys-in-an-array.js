@@ -13,7 +13,7 @@ var countHillValley = function(nums) {
         }
         while(l > 0 && nums[l] == nums[i]) l--
         while(r < nums.length-1 && nums[r] == nums[i]) r++
-        console.log(l, i, r)
+
         if(nums[l] < nums[i] && nums[r] < nums[i]) count++
         if(nums[l] > nums[i] && nums[r] > nums[i]) count++
         i++
