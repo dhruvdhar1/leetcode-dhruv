@@ -11,22 +11,18 @@
  * @return {TreeNode}
  */
 function dfs(root) {
-    if(null == root) {
-        return [0,null]
-    }
-    const left = dfs(root.left)
-    const right = dfs(root.right)
-    if(left[0] > right[0]) {
-        return [1+left[0], left[1]]
-    } else if(left[0] < right[0]) {
-        return [1+right[0], right[1]]
+    if(root === null) return [null, 0]
+    const l = dfs(root.left)
+    const r = dfs(root.right)
+    if(l[1] === r[1]) {
+        return [root, l[1]+1]
+    } else if(l[1] > r[1]) {
+        return [l[0], l[1]+1]
     } else {
-        return [1+left[0], root]
+        return [r[0], r[1]+1]
     }
 }
-
-
 var subtreeWithAllDeepest = function(root) {
-    const node = dfs(root)
-    return node[1]
+    const res = dfs(root) 
+    return res[0]
 };
