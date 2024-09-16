@@ -3,57 +3,72 @@
  * @param {string} endWord
  * @param {string[]} wordList
  * @return {number}
- */
-function isValid(s1, s2) {
-    let count = 0
-    for(let i=0; i<s1.length; i++) {
-        if(s1.charAt(i) !== s2.charAt(i)) {
-            count++
-        }
+    
+    {
+        *ot: [hot, dot, lot]
+        h*t: [hit, hot, ]
+        ho*: [hot , hit]
+        do*: [dot, dog]
+        d*t: [dot]
+        d*g: [dog]
+        *og: [dog, cog, log]
+        l*t: [lot]
+        lo*: [lot, log]
+        l*g: [log]
+        c*g: [cog]
+        co*: [cog]
     }
-    return count < 2
-}
+    
+    queue: []
+    visited: [[hit, 1][hot, 2][dot, 2][lot, 2][dot, 3][dog, 3][lot, 3][log, 3][cog,4]]
+ */
+/**
+ * @param {string} beginWord
+ * @param {string} endWord
+ * @param {string[]} wordList
+ * @return {number}
+ */
 var ladderLength = function(beginWord, endWord, wordList) {
     if(!wordList.includes(endWord)) {
         return 0
     }
     wordList.push(beginWord)
     const adj = new Map()
-    for(const word1 of wordList) {
-        for(const word2 of wordList) {
-            if(word1 !== word2 && isValid(word1, word2)) {
-                if(!adj.has(word1)) {
-                    adj.set(word1, new Set())
-                }
-                if(!adj.has(word2)) {
-                    adj.set(word2, new Set())
-                }
-                adj.get(word1).add(word2)
-                adj.get(word2).add(word1)
+    for(const word of wordList) {
+        for(let i=0; i<word.length; i++) {
+            const pattern = word.slice(0, i) + '*' + word.slice(i+1)
+            if(!adj.has(pattern)) {
+                adj.set(pattern, [])
             }
+            adj.get(pattern).push(word)
         }
     }
+    // console.log(adj)
     const visited = new Set()
     visited.add(beginWord)
-    const q = [beginWord]
-    let res = 1
+    const q = [[beginWord,1]]
+    // let res = 1
     while(q.length > 0) {
         const len = q.length
         for(let i=0; i<len; i++) {
             const pop = q.shift()
-            if(pop === endWord) {
-                return res
+            console.log(pop)
+            if(pop[0] === endWord) {
+                return pop[1]
             }
-            const neigh = adj.get(pop) || []
-            for(const n of neigh) {
-                if(!visited.has(n)) {
-                    visited.add(n)
-                    q.push(n)
+            for(let i=0; i<pop[0].length; i++) {
+                const pattern = pop[0].slice(0, i) + '*' + pop[0].slice(i+1)
+                const neigh = adj.get(pattern) || []
+                // console.log(pattern, " : ", neigh)
+                for(const n of neigh) {
+                    // console.log("n: ", n)
+                    if(!visited.has(n)) {
+                        q.push([n, pop[1]+1])
+                        visited.add(n)
+                    }
                 }
             }
         }
-        res++
     }
-
     return 0
 };
