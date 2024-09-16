@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1374-leftmost-column-with-at-least-a-one) |
+| [1539-diagonal-traverse-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1539-diagonal-traverse-ii) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1646-kth-missing-positive-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1646-kth-missing-positive-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1675-magnetic-force-between-two-balls) |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1539-diagonal-traverse-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1539-diagonal-traverse-ii) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1675-magnetic-force-between-two-balls](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1675-magnetic-force-between-two-balls) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
@@ -565,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/0744-network-delay-time) |
 | [1014-k-closest-points-to-origin](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1014-k-closest-points-to-origin) |
 | [1325-path-with-maximum-probability](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1325-path-with-maximum-probability) |
+| [1539-diagonal-traverse-ii](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1539-diagonal-traverse-ii) |
 | [2725-mice-and-cheese](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2725-mice-and-cheese) |
 ## Hash Table
 |  |
