@@ -5,10 +5,10 @@
     {
     }
 
-    [0,1,2]
-       l            
-       r
+    [0,1,2,2]
+    l
        m
+       r
  */
 var sortColors = function(nums) {
     let l = 0, m = 0, r = nums.length-1
@@ -24,7 +24,6 @@ var sortColors = function(nums) {
             nums[r] = nums[m]
             nums[m] = temp
             r--
-            // m--
         } else {
             m++
         }
