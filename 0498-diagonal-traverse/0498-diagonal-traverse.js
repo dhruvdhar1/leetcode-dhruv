@@ -3,45 +3,39 @@
  * @return {number[]}
  */
 var findDiagonalOrder = function(mat) {
-    let up = true
-    let m = mat.length, n = mat[0].length
-    let i=0, j=0
-    let res = []
-    while(res.length !== m*n) {
-        
-        if(up) {
-            while(i >= 0 && j < n) {
-                res.push(mat[i][j]) 
-                i-=1
-                j+=1
+    const res = []
+    const m = mat.length
+    const n = mat[0].length
+    let r = 0, c = 0
+    let going_up = true
+    while(res.length < m*n) {
+        if(going_up) {
+            while(r >= 0 && c < n) {
+                res.push(mat[r][c])
+                r--
+                c++
             }
-
-            if(j >= n) {
-                i += 2
-                j -= 1
-            } else if (i < 0) {
-                i += 1
+            if(c >= n) {
+                r += 2
+                c -= 1
+            } else if(r < 0) {
+                r++
             }
-            up = false
+            going_up = false
         } else {
-            while(i < m && j >= 0) {
-                res.push(mat[i][j]) 
-                i += 1 //2
-                j -= 1 //-1
-
+            while(c >= 0 && r < m) {
+                res.push(mat[r][c])
+                r++
+                c--
             }
-            if(i >= m) {
-                i -= 1 //2
-                j += 2 //1
+            if(r >= m) {
+                c += 2
+                r -= 1
+            } else if(c < 0) {
+                c++
             }
-            else if (j < 0) {
-                j += 1
-            }
-            
-            up = true
+            going_up = true
         }
     }
-    console.log(res)
     return res
-
 };
