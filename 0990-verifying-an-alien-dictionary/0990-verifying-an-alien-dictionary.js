@@ -4,7 +4,7 @@
  * @return {boolean}
  */
 var isAlienSorted = function(words, order) {
-    const map = new Map([['', -1]])
+    const map = new Map()
     for(let i=0; i<order.length; i++) {
         map.set(order.charAt(i), i)
     }
@@ -14,7 +14,8 @@ var isAlienSorted = function(words, order) {
         while(j < words[i].length && j<words[i-1].length && words[i].charAt(j) === words[i-1].charAt(j)) {
             j++
         }
-        // if(words[i].charAt(j) === '' && words[i-1].charAt(j) !== '') return false
+        // console.log(words[i].slice(0,j) ,":", words[i-1].slice(0,j), words[i].slice(0,i) === words[i-1].slice(0,j))
+        if(words[i].slice(0,j) === words[i-1].slice(0,j) && j >= words[i].length && j < words[i-1].length) return false
         const p1 = map.get(words[i-1].charAt(j))
         const p2 = map.get(words[i].charAt(j))
         if(p1 > p2) {
