@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1646-kth-missing-positive-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1646-kth-missing-positive-number) |
+| [1675-magnetic-force-between-two-balls](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1675-magnetic-force-between-two-balls) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1675-magnetic-force-between-two-balls](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1675-magnetic-force-between-two-balls) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1829-maximum-units-on-a-truck](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1961-maximum-ice-cream-bars) |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1285-balance-a-binary-search-tree](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1285-balance-a-binary-search-tree) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1646-kth-missing-positive-number](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1646-kth-missing-positive-number) |
+| [1675-magnetic-force-between-two-balls](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/1675-magnetic-force-between-two-balls) |
 | [2530-minimize-maximum-of-array](https://github.com/dhruvdhar1/leetcode-dhruv/tree/master/2530-minimize-maximum-of-array) |
 ## Binary Tree
 |  |
