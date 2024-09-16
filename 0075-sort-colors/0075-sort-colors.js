@@ -23,6 +23,7 @@ var sortColors = function(nums) {
             nums[r] = nums[m]
             nums[m] = temp
             r--
+            m--
         }
         m++
     }
