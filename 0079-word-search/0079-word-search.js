@@ -1,20 +1,14 @@
-/**
- * @param {character[][]} board
- * @param {string} word
- * @return {boolean}
- */
 
 function dfs(i, j, m, n, visited, word, ind, board) {
     const key = `${i}:${j}`
-    // console.log("key: ", key)
-    // console.log("i: ", ind, " : ", key)
+    if(ind >= word.length) return true
     if(i < 0 || j < 0 || i >= m || j >= n 
             || visited.has(key) || word.charAt(ind) !== board[i][j]) {
         return false
     }
-    if(ind == word.length-1 && word.charAt(ind) === board[i][j]) {
-        return true
-    }
+    // if(ind == word.length-1 && word.charAt(ind) === board[i][j]) {
+    //     return true
+    // }
 
     visited.add(key)
     const a = dfs(i+1, j, m, n, visited, word, ind+1, board)
